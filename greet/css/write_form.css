@@ -1,0 +1,21 @@
+#content{width: 1200px; margin: 150px auto 0 auto;overflow: hidden;font-family: 'Nanum Gothic', sans-serif; }
+
+#title{text-align: center; font-size: 4.286em; margin: 100px 0 150px 0; font-weight: bold}
+
+
+#write_row1{overflow: hidden;font-size: 18px;}
+.wr1{float: left; margin-right: 10px}
+.wr2{float: left; margin-right: 30px;}
+.wr3{float: left}
+
+#write_row2{overflow: hidden;font-size: 18px;}
+.wl2{ padding: 10px 0;}
+.wl2 input{padding: 5px 0; font-size: 16px; width: 1118px;}
+
+
+#write_row3{font-size: 18px;}
+#write_row3 textarea{width: 1118px; resize: none; height: 500px;}
+
+#write_button{margin: 50px 0 150px 730px}
+#write_button input{padding: 10px 50px; font-size: 20px; background: rgb(255,51,0); margin-left: 30px; color: white; font-weight: bold;border: none}
+#write_button a{padding: 12px 50px; font-size: 20px; background: rgb(255,51,0); margin-left: 30px; color: white; font-weight: bold}

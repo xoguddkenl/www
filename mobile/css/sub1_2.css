@@ -1,0 +1,24 @@
+.content ol{overflow: hidden; height: 50px; position: relative;}
+.content ol::before{content: ''; display: block; width: 100%; height: 1px; background: #ccc; left: 0; top: 31px; position: absolute;}
+.content ol li{float: left; width: 25%; text-align: center;position: relative; left: 0; top: 0; font-size: 18px;}
+.content ol li a{color: #ccc; transition: all .2s}
+.content ol li a::before{content: ''; display: block; width:0%;height: 2px; background: rgba(255,0,51,0); position: absolute; top: 30px; left: 0; transition: all .2s}
+#content_area .content ol li .acurrnet{color: rgba(255,0,51,1)}
+#content_area .content ol li .acurrnet::before{content: ''; display: block; width:100%;height: 2px; background: rgba(255,0,51,1); position: absolute; top: 30px; left: 0;}
+
+.content{font-family: 'Nanum Gothic', sans-serif;}
+.content div{margin-top: 30px; text-align: center;}
+.content div dl{margin: 0 40px 40px 40px;}
+
+.content div dt{margin-bottom: 10px; font-size: 16px; font-weight: bold; color: rgb(255,0,51);position: relative;}
+
+
+.content div dt::after{content: ''; position: absolute; left: 50%; top: -10px; width: 20px; height: 2px; background: rgb(255,0,51); margin-left: -10px;}
+
+
+
+
+.content div dd{line-height: 1.8em;}
+
+
+.title_area{background: url(../images/sub1_visual.jpg)no-repeat ;height: 100px; background-size: cover; margin-bottom: 30px; text-align: center;overflow: hidden;}

@@ -1,0 +1,17 @@
+#content_area{width: 1200px; margin: 0 auto; overflow: hidden; }
+#content_area h2{margin-bottom: 50px;}
+#content_area p{width: 900px; margin: 0 auto; line-height: 1.5em;font-size:1.429em;font-family: 'Nanum Gothic', sans-serif;}
+
+#content_area h3 {text-align: center; font-size: 2.857em; font-weight: bold;margin-bottom: 100px;font-family: 'Nanum Gothic', sans-serif;}
+#content_area h3 span{color: rgb(255,0,51)}
+#content_area dl {text-align: center;font-family: 'Nanum Gothic', sans-serif;}
+#content_area dl dt{color: rgb(255,104,0);font-size: 2.143em; margin-bottom: 10px; font-weight: bold;}
+#content_area dl dd{font-size: 1.143em;margin-bottom: 50px;line-height: 1.5em}
+
+#content_area div:nth-of-type(2){float: left;width: 400px;margin: 0 100px 100px 100px;}
+#content_area div:nth-of-type(3){float: left; width: 400px;margin: 0 100px 100px 100px;position: relative;}
+
+#content_area div:nth-of-type(3) dl:nth-of-type(1)::before{position: absolute; content: ''; display: block; width: 1px; height: 400px; background:#ccc; left: -100px; top: 50px;}
+
+#content_area div:nth-of-type(3) dl:nth-of-type(1) dd{margin-bottom:97px; }
+#content_area div:nth-of-type(3) dl:nth-of-type(2) dd{margin-bottom:50px; }

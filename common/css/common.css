@@ -1,0 +1,102 @@
+@charset "utf-8";
+
+/* CSS Reset */
+
+html, body, div , span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video{margin: 0; padding: 0; border: 0; font-size: 100%}
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section{display: block}
+body{font-family: "돋움", Dotum,"굴림",Gulim, sans-serif; font-size: 14px; color: #333; }
+ol, ul{list-style: none}
+table{border-collapse: collapse; border-spacing: 0}
+address{font-style: normal}
+a{color: #333; text-decoration: none}
+img{border: 0; vertical-align: top}
+.hidden{display: block; position: absolute;
+ left: -1000%; width: 1px; height: 1px; overflow: hidden; color: #fff}
+#skipNav{position:relative;width:100%;overflow:hidden;}
+#skipNav a{display:block; height:1px; margin-bottom:-1px;
+overflow:hidden; text-align:center; font-size:16px;}
+#skipNav a:hover,#skipNav a:focus,#skipNav a:active{
+height:auto;padding:10px 0; background:#f2f2f2;}
+
+.index_title{font-size: 4.286em;font-family: 'Roboto', sans-serif; font-weight: bold; letter-spacing: 11px; margin: 100px 0 50px 0; text-transform: uppercase;text-align: center;}
+.index_sub_title{font-size: 2.143em; font-family: 'Nanum Myeongjo', serif; letter-spacing: -1px; color: #666; margin-bottom: 137px;
+text-transform: capitalize;text-align: center;}
+
+/*폰트 사용법
+font-family: 'Nanum Gothic', sans-serif;
+font-family: 'Nanum Myeongjo', serif;
+font-family: 'Roboto', sans-serif;*/
+
+/*헤더공통영역*/
+#wrap {width: 100%; position: relative; overflow: hidden;}
+#headerArea { position: fixed; z-index: 1000; width: 100%; }
+#headerArea .top_menu {height: 42px; background: rgba(255,0,51,1);position: relative;}
+#headerArea .top_menu .top_menu_inner{width: 1200px; margin: 0 auto}
+#headerArea .top_menu ul{overflow: hidden; margin-left:1015px;}
+#headerArea .top_menu ul li{float: left; margin: 13px 16px 13px 0; font-family: 'Nanum Gothic', sans-serif; font-size: 1.143em;}
+#headerArea .top_menu ul li a{color: #fff; transition: all .2s}
+#headerArea .top_menu ul li:hover a{font-weight: bold}
+#headerArea .gnb_box {overflow:hidden; position: absolute; background:rgba(0,0,0,.5); width: 100%; z-index: 1000; }
+#headerArea .gnb_box_inner{width: 1200px; margin: 0 auto}
+#headerArea .gnb_box .logo {width:153px;float:left;}
+#headerArea .gnb_box .logo a{display: block; width: 153px; height: 108px; text-indent: -999px; overflow: hidden; background: url(../images/logo.png) no-repeat right 24px;}
+
+
+
+/*공통 gnb영역*/
+#headerArea .gnb_box #gnb {}
+#headerArea .gnb_box #gnb .dropdownmenu{}
+#headerArea .gnb_box #gnb ul .menu{float: left;width: 209px; text-align: center; padding: 41px 0 ; font-family: 'Nanum Gothic', sans-serif}
+#headerArea .gnb_box #gnb ul li h3{font-size:1.571em;}
+#headerArea .gnb_box #gnb ul li a{color: #fff;display: block;transition: all .2s}
+
+#headerArea .gnb_box #gnb ul li ul{height: 150px;display: none;padding-top: 30px;}
+#headerArea .gnb_box #gnb ul li ul li{float: none; line-height: 2em;}
+#headerArea .gnb_box #gnb ul li ul li a{color: #fff; padding: 5px 0; transition: all .2s}
+#headerArea .gnb_box #gnb ul li ul li a:hover{color: rgb(255,0,51); padding: 5px 0; background: #fff;}
+
+
+/*상단 탑메뉴 공통*/
+.topMove{display:block; width: 50px;height: 50px; background: #f00; border-radius: 25px;position: fixed; left:50%; margin-left: 600px; bottom:100px; }
+
+.topMove span{font-size: 20px; color: #fff; display: block; text-align: center; margin-top: 8px; font-family: 'Roboto', sans-serif;  margin-top: 11px;}
+
+
+/*푸터공통영역*/
+#footerArea {background: #333; height: 172px;}
+#footerArea .footer{width:1070px;float:left;
+ color: #fff;}
+#footerArea .footer_outer{width: 1200px; margin: 0 auto}
+#footerArea .footer ul{overflow: hidden; margin: 30px 0 30px 452px;}
+#footerArea .footer ul li{float: left; margin: 0 0 0 15px;background: url(../../images/footer_line.jpg) no-repeat right center; padding-right: 15px;}
+#footerArea .footer ul li:nth-last-child(1){background: none;}
+#footerArea .footer ul li a{color: #fff; font-family: 'Nanum Gothic', sans-serif; font-weight: bold;}
+#footerArea .footer ul li a:hover{color: rgba(255,0,51,1)}
+#footerArea .footer address{font-size: 0.857em; margin:0 0 30px 130px; line-height: 1.5em; text-align: center; }
+#footerArea .footer>p {font-size: 0.857em; margin-left: 455px;}
+#footerArea .footer_family {width:130px;float:right}
+#footerArea .footer_family .fa_con1 {margin-top: 30px;}
+#footerArea .footer_family .fa_con2 ul{overflow: hidden; margin: 20px 0 0 20px;}
+#footerArea .footer_family .fa_con2 ul li{float: left;margin-right: 10px;}
+#footerArea .footer_family .fa_con2 a{color: #999; font-size: 1.5em; transition: all .2s}
+#footerArea .footer_family .fa_con2 a:hover{color:#fff}
+
+#footerArea .footer_family .fa_con1 {position: relative;left: 0;top: 0; width: 120px; background: #fff; z-index: 10;}
+#footerArea .footer_family .fa_con1 .arrow{display: block;text-align: center;}
+#footerArea .footer_family .fa_con1 .a_list{position: absolute;left: 0; top:-104px; text-align: center;width: 120px;}
+#footerArea .footer_family .fa_con1 .a_list {display: none;}
+#footerArea .footer_family .fa_con1 .a_list li{}
+#footerArea .footer_family .fa_con1 .a_list li a{display: block; color: #666; background: #fff; padding: 5px 0;}

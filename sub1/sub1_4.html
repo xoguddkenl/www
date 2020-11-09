@@ -1,0 +1,94 @@
+<?
+     session_start();
+     @extract($_GET);
+     @extract($_POST);   
+     @extract($_SESSION);   
+?>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>오시는 길</title>
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&family=Nanum+Myeongjo:wght@400;700;800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../common/css/common.css">
+    <link rel="stylesheet" href="common/css/sub1common.css">
+    <link rel="stylesheet" href="css/content4.css">
+    <script src="../common/js/prefixfree.min.js"></script>
+    <script src="https://kit.fontawesome.com/e49f5d3028.js" crossorigin="anonymous"></script>
+    <script src="//dapi.kakao.com/v2/maps/sdk.js?appkey=c18c8eda8f5d5fc803cea7763f47bf5f"></script>
+    
+    <!--[if IE9]>
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+    <? include "../common/sub_head.html" ?>
+      <!--비주얼 영역-->
+<div class="visual">
+    <img src="common/images/visual.jpg" alt="#">
+</div>
+<!--서브네비 영역-->
+<div class="subnav_box">
+    <h3>기업소개</h3>
+    <p>인류의 행복한 삶과 더 나은 세상을 만들기위해 노렵하는 기업 SK건설입니다.</p>
+    <div class="sub_nav">
+        <ul>
+            <li><a id="nav1" href="sub1_1.html">대표이사 인사말</a></li>
+            <li><a id="nav2" href="sub1_2.html">기업연혁</a></li>
+            <li><a id="nav3" href="sub1_3.html">미션과 비전</a></li>
+            <li><a id="nav4" href="sub1_4.html" class="current">오시는 길</a></li>
+        </ul>
+    </div>
+</div>
+        <!--본문콘텐츠 영역-->
+        <div id="content_area">
+            <div class="title_area">
+                <div class="line_map"><span>home</span> &gt; <span>기업소개</span> &gt; <strong>오시는 길</strong>
+                </div>
+                <h2>오시는 길</h2>
+            </div>
+            <div id="map" class="box1">
+            </div>
+            <div class="box2">
+                <h3>SK건설 주식회사</h3>
+                <dl>
+                    <dt>address</dt>
+                    <dd>서울특별시 종로구 인사동7길 32, SK건설</dd>
+                </dl>
+                <dl>
+                    <dt>tel</dt>
+                    <dd>02-3700-7114</dd>
+                </dl>
+                <dl>
+                    <dt>fax</dt>
+                    <dd>02-3700-8200</dd>
+                </dl>
+                <dl>
+                    <dt>e-mail</dt>
+                    <dd>skenc&#64;naver.com</dd>
+                </dl>
+            </div>
+            <div class="way">
+                <h3>대중교통 이용안내</h3>
+                <dl>
+                    <dt><i class="fas fa-subway"><span class="hidden">지하철이용안내</span></i> 지하철 이용 안내</dt>
+                    <dd>지하철 <span>3호선 안국역</span> 6번 출구 방면 도보로 약 7분</dd>
+                </dl>
+                <dl>
+                    <dt><i class="fas fa-bus-alt"><span class="hidden">버스이용안내</span></i> 버스 이용 안내</dt>
+                    <dd><span>간선</span>301, 303, 1, 6-1, 10, 11-5, 3, 5-2, 60, 917</dd>
+                    <dd><span>광역</span>0313, 333, 3330, 3030, 9503, 900, 1650</dd>
+                    <dd><span>마을</span>10-1, 8, 3, 10-2, 5, 5-1, 5-3, 6, 6-1, 6-2, 7</dd>
+                </dl>
+            </div>
+
+
+        </div>
+
+        <!--푸터 공통영역-->
+        <? include "../common/sub_foot.html" ?>
+        <script src="js/sub1_4.js"></script>
+
+</body></html>

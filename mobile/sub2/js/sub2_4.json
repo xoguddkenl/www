@@ -1,0 +1,57 @@
+{
+    "job": [{
+            "pimg": "images/content4/plant_1.jpg",
+            "pname": "S-Project",
+            "poder": "발주:SK Energy",
+            "time": "기간:2017.11 ~ 2020.02",
+            "form": "형태:EPC"
+    }, {
+            "pimg": "images/content4/plant_2.jpg",
+            "pname": "캐나다 오일샌드 플랜트",
+            "poder": "발주:SUNCOR",
+            "time": "기간:2014.04 ~ 2017.06",
+            "form": "형태:EPC"
+    }, {
+            "pimg": "images/content4/plant_3.jpg",
+            "pname": "인천 CLX Project",
+            "poder": "발주:SK인천석유화학(주)",
+            "time": "기간:2015.10 ~ 2016.12",
+            "form": "형태:EPC"
+    }, {
+            "pimg": "images/content4/infra1.jpg",
+            "pname": "UAE, Etihad rail Stage 2",
+            "poder": "발주:Etihad Rail",
+            "time": "기간:2019.03 ~ 2022.12",
+            "form": "형태:EPC"
+    }, {
+            "pimg": "images/content4/infra2.jpg",
+            "pname": "slivertown Tunnel",
+            "poder": "발주:Riverlink",
+            "time": "기간:2019.11 ~ 2025.01",
+            "form": "형태:EPC"
+    }, {
+            "pimg": "images/content4/infra3.jpg",
+            "pname": "시화MTV 중 1-117호선",
+            "poder": "발주:한국수자원공사",
+            "time": "기간:2019.11 ~ 2023.08",
+            "form": "형태:EPC"
+    }, {
+            "pimg": "images/content4/build1.jpg",
+            "pname": "매교역 PRUGIO SK VIEW",
+            "poder": "발주:팔달8구역 주택재개발정비사업 조합",
+            "time": "기간:2020.01 ~ 2022.06",
+            "form": "형태:공동도급"
+    }, {
+            "pimg": "images/content4/build2.jpg",
+            "pname": "운서 SK VIEW SKYCITY",
+            "poder": "발주:디에스네트웍스(주)",
+            "time": "기간:2019.08 ~ 2022.11",
+            "form": "형태:수탁"
+    }, {
+            "pimg": "images/content4/build3.jpg",
+            "pname": "평택역 SK VIEW",
+            "poder": "발주:대한토지신탁(주)/두리산업개발(주)",
+            "time": "기간:2019.07 ~ 2021.10",
+            "form": "형태:수탁"
+    }]
+}

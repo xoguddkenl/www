@@ -1,0 +1,14 @@
+#content{width: 1200px; margin: 150px auto 0 auto;font-family: 'Nanum Gothic', sans-serif; overflow: hidden;}
+
+#content #title{text-align: center; font-size: 4.286em; margin: 100px 0 150px 0;font-weight: bold}
+
+#view_title{overflow: hidden; font-size: 20px; padding: 30px 0; background: rgb(245,245,245); border-top: 2px solid #ccc; border-bottom: 1px solid #ccc}
+#view_title1{float: left;width: 900px; overflow: hidden;}
+#view_title2{float: left;width: 200px;text-align: center;}
+#view_title3{float: left;width: 100px;text-align: center;}
+#view_content{ padding-top: 50px; height: 800px; border-bottom: 1px solid #ccc; margin-bottom: 50px; font-size: 18px}
+
+#view_button{margin-bottom: 150px;}
+#view_button a{padding: 10px 50px; font-size: 20px; background: rgb(255,51,0); margin-left: 30px; color: white; font-weight: bold}
+#view_button a:first-child{margin-left: 650px;}
+

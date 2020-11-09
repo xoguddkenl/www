@@ -1,0 +1,42 @@
+  <script>
+      window.onload = function() {
+
+          var num = '<?=$_GET['num']?>';
+
+          var nav1 = document.getElementById('nav1');
+          var nav2 = document.getElementById('nav2');
+          var nav3 = document.getElementById('nav3');
+          var nav4 = document.getElementById('nav4');
+
+          if (num == 1) {
+              nav1.className = 'current';
+          } else if (num == 2) {
+              nav2.className = 'current';
+          } else if (num == 3) {
+              nav3.className = 'current';
+          }else if (num == 4) {
+              nav3.className = 'current';
+          }
+      };
+
+  </script>
+
+
+  <!--비주얼 영역-->
+  <div class="visual">
+      <img src="common/images/visual.jpg" alt="#">
+  </div>
+  <!--서브네비 영역-->
+  <div class="subnav_box">
+      <h3>홍보센터</h3>
+      <p>전세계와 함께하는 SK건설의 이야기</p>
+      <div class="sub_nav">
+          <ul>
+              <li><a id="nav1" href="../news/list.php">뉴스</a></li>
+              <li><a id="nav2" href="../greet/list.php">공지사항</a></li>
+              <li><a id="nav3" href="../sub4/sub4_3.html">Q&amp;A</a></li>
+
+          </ul>
+      </div>
+  </div>
+

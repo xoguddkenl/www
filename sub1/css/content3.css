@@ -1,0 +1,28 @@
+#content_area ul {width: 1200px; margin: 0 auto;}
+.down_box{ position: relative; top: -100px; opacity: 0; transition: all .8s;}
+#content_area ul li {overflow: hidden; color: #fff;}
+#content_area ul li>h3{font-size:2.571em; position: absolute; }
+#content_area ul li:nth-of-type(1)>h3{left: 50px; top: 110px;}
+#content_area ul li:nth-of-type(2)>h3{right: 50px; top: 110px;}
+#content_area ul:nth-of-type(1) li dl{height: 600px;}
+#content_area ul li dl dt{font-family: 'Roboto', sans-serif; font-weight: bold; font-size: 2.571em; margin: 170px 50px 50px 50px;}
+#content_area ul li dl dd{margin: 0 50px; line-height: 1.5em}
+#content_area ul li dl dd:nth-of-type(1){font-family: 'Roboto', sans-serif; font-weight: bold; font-size:1.429em ;margin-bottom: 30px;}
+#content_area ul li dl dd:nth-of-type(2){font-family: 'Nanum Gothic', sans-serif;  font-size:1.286em}
+#content_area ul li:first-child dl{background: rgba(255,0,51,.8); float: left; width: 450px; margin-bottom: 100px;}
+#content_area ul li:first-child img{float: right;}
+#content_area ul li:last-child dt{text-align: right;}
+#content_area ul li:last-child dl{background: rgba(255,104,0,.8); float: right; width: 450px;}
+#content_area ul li:last-child dd{text-align: right}
+#content_area ul li:last-child img{float: left;}
+
+#content_area>h3{text-align: center; margin-top: 200px; font-family: 'Nanum Gothic', sans-serif; font-weight: bold; font-size: 2.571em; color: #666 }
+#content_area ul:last-child {overflow: hidden; padding-left: 160px }
+#content_area ul:last-child li{float: left; margin-right: 80px;}
+#content_area ul:last-child li span{display: block; width: 200px; height: 200px; background-color: rgba(255,104,0,.8); border-radius: 100px; margin: 100px 0 0 0; text-align: center;  overflow: hidden;color: #fff; font-size: 5em;}
+#content_area ul:last-child li span i{margin-top: 60px;}
+#content_area ul:last-child li dl{height: 200px; width: 200px;font-size: 0.743em; background: #fff;  margin: 30px 0 0 0;  float: none; width: 200px;}
+#content_area ul:last-child li dt{margin:30px 0; text-align: center;color:#999;}
+#content_area ul:last-child li dd{margin: 0; text-align: center;color:#666;}
+
+.box_move{top:0; opacity: 1;}

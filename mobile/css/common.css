@@ -1,0 +1,140 @@
+@charset "utf-8";
+
+/*폰트 사용법
+font-family: 'Nanum Gothic', sans-serif;
+font-family: 'Nanum Myeongjo', serif;
+font-family: 'Roboto', sans-serif;*/
+
+
+
+
+/* 모바일 코딩 필수 공통영역 */
+* {
+ margin:0;
+ padding:0;
+ -webkit-text-size-adjust:none; }
+body {
+ color:#333;
+ font-size:14px;
+ font-family:돋움, Dotum; }
+img, fieldset { border:0; vertical-align:top }
+ul, ol, li, dl { list-style:none; }
+h1, h2, h3, h4, h5, h6 {
+ font-size:100%;
+ font-weight:normal; }
+hr { display:none; }
+a { color:inherit; }
+a, a:link {
+ color:#333;
+ text-decoration:none; }
+a:visited { color:#333; }
+a:hover, a:active {
+ color:#333;
+ text-decoration:none; }
+em, i, address {
+ font-style:normal;
+ font-weight:normal; }
+legend, caption {
+ display:none;
+ clear:both; }
+input, textarea, select, button, table {
+ font-size:inherit;
+ font-family:inherit;
+ line-height:inherit; }
+section, nav, article, aside, hgroup, header, footer { display:block }
+textarea, input {border-radius:1px}
+textarea { resize:none; }
+label { cursor:pointer; }
+.hidden,#skipNav{display: block; position: absolute; left: 0; top: 0; width: 1px; height: 1px; overflow: hidden; color: #fff; text-indent: -1000%;}
+
+/* 전체 공통 */
+#wrap{ width:100%; overflow:hidden; position: relative; left: 0; top: 0;}
+
+/* 헤더 공통 */
+#headerArea{overflow: hidden;height: 80px;}
+#headerArea h1{float: left;  width: 59px; height: 34px; margin: 25px 0 0 20px}
+
+
+#headerArea h1 a{display: block; text-indent: -999%;  height: 34px; width: 59px; background: url(../images/logo320.png) no-repeat center center;
+background-size: 59px 34px}
+
+
+@media screen and (-webkit-min-device-pixel-ratio: 2) {
+    #headerArea h1 a{background:url(../images/logo640.png);
+    background-size: 59px 34px}
+}
+
+
+/*ul영역*/
+.drop_down_menu{position: absolute; left: 0; top: 80px; z-index: 100; width: 100%; background: white; font-family: 'Nanum Gothic', sans-serif; display: none; padding-top: 30px;}
+.drop_down_menu p{font-family: 'Nanum Gothic', sans-serif;}
+.drop_down_menu p:nth-of-type(1){margin: 90px 20px 15px 0; font-weight: bold; color: rgb(255,0,51)}
+.drop_down_menu p:nth-of-type(1) span{color: rgb(255,104,0)}
+.drop_down_menu p:nth-of-type(2){margin: 0 20px 30px 0;line-height: 1.5em}
+.drop_wrap{margin-left: 10px;}
+
+/*li영역*/
+.drop_menu h3{margin-bottom: 30px; font-weight: bold}
+.drop_menu>a{display: block;font-size: 30px;}
+.drop_menu>a:hover{color: rgb(255,0,51)}
+.drop_menu{position: relative;}
+
+
+.drop_menu::after{content: ''; width: 90%; height: 1px; display: block; background: #ccc; position: absolute; top: -5px; left: 0;}
+.drop_menu:nth-of-type(1)::after{display: none;}
+
+
+.drop_menu ul {position: relative; left: 0; top: 0; display: none; margin-bottom: 30px;}
+.drop_menu ul li{line-height: 3em}
+.drop_menu ul li a{font-size: 26px;}
+
+
+
+.drop_down_menu p{text-align: right;}
+
+
+#gnb{float: right;  position: relative; right:20px; top: 25px; z-index: 200; }
+#gnb img{float: left; display: block;}
+#gnb div{width: 26px; height: 4px; background: rgb(255,0,51); margin-bottom: 7px;
+transition: all .4s}
+#gnb div.rotatebox{transform: rotateZ(45deg); margin-bottom: -3px;}
+#gnb div.rotatebox2{transform: rotateZ(-45deg); margin-bottom: -3px;}
+#gnb div.rotatebox3{display: none;}
+
+#headerArea #gnb a{display: block;}
+/* 푸터 공통 */
+
+
+#footerArea{background: #333;padding:0 0 30px 30px; font-family: 'Nanum Gothic', sans-serif;}
+#footerArea div:nth-of-type(1){overflow: hidden;padding:50px 0 30px 0}
+#footerArea div:nth-of-type(1) a:nth-of-type(1){float: left;}
+#footerArea div:nth-of-type(1) a:nth-of-type(2){float: right;color: white; margin-right: 30px; font-size: 15px; font-weight: bold; text-align: center;}
+#footerArea div:nth-of-type(1) a:nth-of-type(2) span{display: block;}
+
+#footerArea{}
+#footerArea ul{overflow: hidden;}
+#footerArea ul li{float: left;margin-right: 13px;position: relative; font-weight: bold;}
+#footerArea ul li::before{content: '';width: 1px; height: 10px; display: block; position: absolute; right: -6px; top: 3px; background: white;}
+#footerArea ul li:last-child::before{display: none}
+#footerArea ul li a{color: white; font-size: 14px;}
+#footerArea address{color: white; margin-top: 20px; color: white; font-size: 14px;}
+#footerArea address span{font-weight: bold; margin-right: 10px;}
+#footerArea p{color: white; margin: 50px 0 0 0; color: white; font-size: 14px;}
+
+
+/*sub common*/
+
+#content_area{width: 100%}
+
+
+
+.title_area h3{font-size: 18px;font-family: 'Nanum Gothic', sans-serif; font-weight: bold; color: white;margin: 25px 0 10px 0}
+.title_area p{font-family: 'Roboto', sans-serif; color: white}
+
+#content_area .content{overflow: hidden;}
+#content_area .content h2{font-size: 26px;font-family: 'Nanum Gothic', sans-serif; font-weight: bold;text-align: center; margin: 40px 0 30px 0}
+
+
+
+
+

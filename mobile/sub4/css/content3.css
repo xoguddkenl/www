@@ -1,0 +1,27 @@
+#content_area{width: 1200px; margin: 0 auto; }
+
+.faq{margin-bottom: 200px; font-family: 'Nanum Gothic', sans-serif;}
+
+.faq .hgroup{position:relative;margin:0 0 10px 0;}  
+.faq .hgroup h3{text-align: center;font-size: 2.857em}
+.faq .hgroup .all{position:absolute; top:5px; right:10px;
+       color:#333; text-decoration:none;}  
+
+.faq ul{margin:100px 0 0 0;padding:0;list-style:none}  
+.faq .q{margin:0;border-top:1px solid #ddd; position: relative;}
+.faq .q a.trigger{display:block;padding:25px 15px;background:#fafafa;color:#333;text-align:left;text-decoration:none ;}  
+.faq .hide .q a.trigger{font-weight:normal;background:none; font-size: 1.143em;}  
+.faq .q a.trigger:hover,  
+.faq .q a.trigger:active,  
+.faq .q a.trigger:focus{background:rgb(255,0,51);color:white;font-size: 1.143em; font-weight: bold}  
+.faq .a{margin:0;padding:15px 15px;line-height:1.5; display: none; background:#ccc} 
+
+a.co{background:rgb(255,0,51);color:white;font-size: 1.143em; font-weight: bold;display:block;padding:25px 15px;}
+
+
+
+
+
+
+
+

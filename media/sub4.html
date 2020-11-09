@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width">
+	<title>Responsive WebDesign</title>
+	<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+	<link rel="apple-touch-icon-precomposed" href="app_icon.png">
+	<link rel="apple-touch-startup-image" href="startup.png">
+
+	<link rel="stylesheet" href="css/common.css">
+	<link rel="stylesheet" href="css/subcommon.css">
+	<link rel="stylesheet" href="css/sub4.css">
+	<link rel="stylesheet" href="css/swiper.css">
+	
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+
+	<script defer src="https://use.fontawesome.com/releases/v5.14.0/js/all.js" integrity="sha384-3Nqiqht3ZZEO8FKj7GR1upiI385J92VwWNLj+FqHxtLYxd9l+WYpeqSOrLh0T12c" crossorigin="anonymous"></script>
+	<script src="js/prefixfree.min.js"></script>
+	<script src="js/jquery-1.12.4.min.js"></script>
+	<script src="js/jquery-migrate-1.4.1.min.js"></script>
+	<script src="js/nav.js"></script>
+	<script src="js/subCommon.js"></script>
+	<script src="js/sub4.js"></script>
+    <script src="js/swiper.js"></script>
+
+	<script>
+		window.onload = function() {
+			var swiper = new Swiper('.swiper-container', {
+				pagination: '.swiper-pagination',
+				paginationType: 'progress',
+				slidesPerView: 'auto',
+				paginationClickable: true,
+				spaceBetween: 0,
+				freeMode: true,
+				nextButton: '.next',
+				prevButton: '.back'
+			});
+		};
+
+	</script>
+
+</head>
+
+<? include "common/subhead.html" ?>
+
+
+<article id="content">
+	<h2 class="hidden">본문콘텐츠영역</h2>
+	<div class="act_name">Suraj Sharma</div>
+	<div class="feature">
+		<div class="inWrap">
+			<div class="fInner swiper-container">
+				<ul class="swiper-wrapper">
+					<li class="swiper-slide"><a href="#">
+						</a></li>
+					<li class="swiper-slide"><a href="#">
+						</a></li>
+					<li class="swiper-slide"><a href="#">
+						</a></li>
+					<li class="swiper-slide"><a href="#">
+						</a></li>
+					<li class="swiper-slide"><a href="#">
+						</a></li>
+					<li class="swiper-slide"><a href="#">
+						</a></li>
+
+				</ul>
+				<!-- Add Pagination -->
+				<div class="swiper-pagination"></div>
+			</div>
+		</div>
+	</div>
+</article>
+
+
+<? include "common/foot.html" ?>
+
+</html>

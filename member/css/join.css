@@ -1,0 +1,21 @@
+#title{width: 186px; margin: 0 auto}
+#title img{width: 186px; margin: 100px auto 30px auto;}
+
+.sub_cont_wrap{}
+
+.member_tab{padding: 30px 0;border-top: 1px solid #333}
+.member_tab a{font-size: 24px;padding: 10px;margin: 0 10px;color: #aaa;}
+.member_tab a.on{color: #000;border-bottom: 2px solid #000;font-weight: bold}
+.member_tab span{font-size: 24px;padding: 10px;margin: 0 10px;color: #000;font-weight: bold}
+
+.join{text-align: left; width: 800px; margin: 0 auto 100px auto;font-family: 'Nanum Gothic', sans-serif;}
+.join h4{font-size: 16px;margin-top: 30px}
+.join .policy{padding: 10px;overflow-y: scroll;height: 20px;margin: 10px 0;border: 1px solid #ddd;line-height: 1.5em}
+.join .button{text-align: center;margin-top: 100px}
+.join .button .ok,.join .button button{display: inline-block;width: 150px;line-height: 24px;padding: 8px 0;border: none;color: #fff;font-size: 14px;cursor: pointer;}
+.join .button .cancel{display: inline-block;width: 150px;line-height: 24px;padding: 8px 0;border: none;background: #999;color: #fff;font-size: 14px;cursor: pointer}
+
+.allcheck{display: block;width: 305px;line-height: 24px;padding: 8px 0;border: none;background: #999;color: #fff;font-size: 14px;cursor: pointer;margin: 5px auto 0 auto;transition: all .2s}
+.allcheck:hover{background: rgb(255,104,0)}
+.check_agree{background: #999; transition: all .2s}
+.check_agree:hover{background: rgb(255,104,0)}

@@ -1,0 +1,78 @@
+<?
+     session_start();
+     @extract($_GET);
+     @extract($_POST);   
+     @extract($_SESSION);   
+?>
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <title>채용프로세스</title>
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&family=Nanum+Myeongjo:wght@400;700;800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="../common/css/common.css">
+    <link rel="stylesheet" href="common/css/sub5common.css">
+    <script src="https://kit.fontawesome.com/e49f5d3028.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/content2.css">
+    <script src="../common/js/prefixfree.min.js"></script>
+    <!--[if IE9]>
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+    <? include "../common/sub_head.html" ?>
+    <?  $_GET['num']=2;
+       include "common/sub_indecator.html";
+    ?>
+
+    <!--본문콘텐츠 영역-->
+    <div id="content_area">
+        <div class="title_area">
+            <div class="line_map"><span>home</span> &gt; <span>채용정보</span> &gt; <strong>채용 프로세스</strong>
+            </div>
+            <h2>채용 프로세스</h2>
+        </div>
+        <h3>SK건설의 채용 프로세스</h3>
+        <p>SK건설은 지원자가 보유하고 있는 자질과 역량을 보다 정확히 파악하기 위해 다양한 선발도구를 개발하여 인재 선발 시활용하고 있습니다. 일반적으로 채용 절차는 서류심사-필기전형-면접전형의 순서로 이루어지며, 채용 지역 및 대상에 따라 전형 단계별 적용방식 및 기준이 달라질 수 있습니다.</p>
+        <div>
+            <img src="images/content2/paper.jpg" alt="#">
+            <dl>
+                <dt>서류심사</dt>
+                <dd>‘자기소개서’를 중심으로 지원자의 가치관 및 직무역량, Global역량 등을 종합적으로 판단하고 있습니다.특히 SK건설의 인재상(따뜻한 프로페셔널)과 개인이 보유한 가치관이 얼마나 일치하는가를 면밀히 검증하고 있습니다.</dd>
+            </dl>
+        </div>
+        <div>
+            <img src="images/content2/test.jpg" alt="#">
+            <dl>
+                <dt>필기전형</dt>
+                <dd>SKCT는 SK에서 직무수행을 위해 요구되는 역량을다양하고 종합적인 관점에서 측정하기 위한 종합 역량 검사 입니다.일하는데 필요한 복합적이고 고차원적인 사고능력을 특정하는 인지역량,일하면서 부딪치는 문제상황에서 적절한 판단을 내릴 수 있는 지를 측정하는 실행역량, 그리고 일하는 데 적합한 성격, 가치관, 태도를 갖추고 있는 지 측정하는 심층역량으로 구성되어 있습니다.</dd>
+            </dl>
+        </div>
+        <div>
+            <img src="images/content2/inter.jpg" alt="#">
+            <dl>
+                <dt>면접전형</dt>
+                <dd>SK 건설은 지원자의 가치관, 성격특성, 보유역량의 수준 등을 종합적으로 철저히 검증하기 위하여 다양한 면접방식을 활용하고 있습니다. [신입채용]1차 : SK 건설의 인재상과 지원자가 보유한 가치관이 얼마나 일치하는지 검증하기 위한 ‘Value Interview’와 주어진 Business Case를 분석하고 발표하는 ‘PT면접’등을 실시합니다.</dd>
+            </dl>
+        </div>
+        <div>
+            <dl>
+                <dt>지원자격</dt>
+                <dd>나이, 학력, 학점, 전공과 같은 제한을 두고 있지 않습니다. 해외여행 결격사유가 없다면 누구나 지원 가능합니다. (남자는 병역필 또는 면제자 限) 단, 경력사원은 별도 공고된 요구 경력 및 자격사항을 보유하여야 합니다. 해당 요건을 갖추지 못했을 경우 지원은 가능하나 서류전형상 불이익을 받을 수 있습니다.</dd>
+            </dl>
+            <dl>
+                <dt>지원방법</dt>
+                <dd>신입사원 : 모집기간 내 SK 그룹채용 사이트의 안내사항에 따라 지원하여 주시기 바랍니다.</dd>
+                <dd>경력사원 : 모집 형태에 따라 상이하므로 해당 채용공고에서 안내하는 지원방법을 참고하여 주시기 바랍니다.</dd>
+            </dl>
+        </div>
+    </div>
+    <? include "../common/sub_foot.html" ?>
+    <!--푸터 공통영역-->
+
+</body>
+
+</html>

@@ -1,0 +1,32 @@
+.title_area{background:url(../images/sub3_visual.jpg)no-repeat ;height: 100px; background-size: cover; margin-bottom: 30px; text-align: center;overflow: hidden;}
+
+.content {margin: 0 40px;font-family: 'Nanum Gothic', sans-serif;}
+.content h3{text-align: center;font-size: 20px; font-weight: bold; margin-bottom: 20px}
+.content h3~p{text-align: justify;margin-bottom: 30px}
+
+.content .hide{text-indent: -1000%; color: white; overflow: hidden; background: url(../images/sub3_1_edit640.jpg)no-repeat center center;
+background-size: 260px 123px;
+width: 260px; margin: 30px auto}
+
+.hide~div{overflow: hidden;margin-bottom: 50px}
+.hide~div ul{overflow: hidden; text-align: center;}
+.hide~div ul li{float: left; width: 33.33%;color: white; padding: 10px 0 }
+.hide~div ul li:nth-of-type(1){background:  rgb(255,0,51);}
+.hide~div ul li:nth-of-type(2){background: rgb(255,144,0)}
+.hide~div ul li:nth-of-type(3){background: #ccc}
+
+.hide~div ul li p{}
+.hide~div dl{text-align: center; width: 33.33%;float: left;}
+.hide~div dl span{display: block;margin-bottom: 10px;font-size: 50px;}
+.hide~div dl:nth-of-type(1) span{color: rgb(255,0,51); font-weight:100;}
+.hide~div dl:nth-of-type(2) span{color: rgb(255,144,0); font-weight:100;}
+.hide~div dl:nth-of-type(3) span{color: #ccc; font-weight:100;}
+
+
+.hide~div dt{margin-bottom: 10px;font-weight: bold;color: #666}
+.hide~div dd{text-align: justify;margin: 0 10px;}
+.hide~div~img{display: block; width: 20%; background: red; float: left;}
+.hide~div~img~dl{float: left; width: 75%; margin-left: 5%;margin-bottom: 50px;}
+.hide~div~img~dl dt{font-size: 18px; font-weight: bold; color: #666; margin-bottom: 10px;}
+.hide~div~img~dl dd{color: rgb(255,0,51)}
+

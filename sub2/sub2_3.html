@@ -1,0 +1,89 @@
+<?
+     session_start();
+     @extract($_GET);
+     @extract($_POST);   
+     @extract($_SESSION);   
+?>
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <title>인프라 사업분야</title>
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&family=Nanum+Myeongjo:wght@400;700;800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="../common/css/common.css">
+    <link rel="stylesheet" href="common/css/sub2common.css">
+    <script src="https://kit.fontawesome.com/e49f5d3028.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/content3.css">
+    <script src="../common/js/prefixfree.min.js"></script>
+    <!--[if IE9]>
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+   <? include "../common/sub_head.html" ?>
+       <?  $_GET['num']=3;
+       include "common/sub_indecator.html";
+    ?>
+
+        <!--본문콘텐츠 영역-->
+        <div id="content_area">
+            <div class="title_area">
+                <div class="line_map"><span>home</span> &gt; <span>사업분야</span> &gt; <strong>인프라</strong>
+                </div>
+                <h2>인프라</h2>
+            </div>
+            <div>
+                <h3>SK건설의 인프라</h3>
+                <p>
+                    철도, 도로, 항만, 지하공간, 수자원시설, 환경시설 등의<br> Civil Infrastructure 건설을 통해 인류의 삶의 질을 향상시키고 있습니다.
+                </p>
+            </div>
+            <div>
+                <dl>
+                    <dt>SUPEX-CUT</dt>
+                    <dd>수펙스 컷 공법이란?</dd>
+                    <dd>소음/진동을 최소화하면서 대규모 굴착공사가 가능한 SK건설만의 발파기술</dd>
+                    <dd>분착식 다단 발파공 / SUPEX-Cut에 대한 설명으로, 이는, 굴진방향, 공저, 막장, 각도공, 평형공<br>같은천 공장 등의 처리 순서를 정의하여, 입체적인 발파순서에 의한 전류공부분의 재발파, 각도공과<br> 평행공의 특성을 이용한 굴진장을 분할하여 발파, 심채기 평행공 무장악 부분의 암반저항력 감쇄효과를 통한<br>
+                        진동과 소음감소 효과를 가져오게 되었다.</dd>
+                    <dd><a href="sub2_4.html">포트폴리오 보러가기</a></dd>
+                </dl>
+            </div>
+            <div>
+                <ul>
+                    <li>
+                        <dl>
+                            <dt>사업영역</dt>
+                            <dd>아파트</dd>
+                            <dd>빌라 및 고급주택</dd>
+                        </dl>
+                    </li>
+                    <li>
+                        <dl>
+                            <dt>사업형태</dt>
+                            <dd>도급사업, 자체사업, 도시정비사업</dd>
+                            <dd>수탁사업, 지주공동사업</dd>
+                            <dd>기획제안형 사업</dd>
+                            <dd>프로젝트 파이낸싱</dd>
+                        </dl>
+                    </li>
+                    <li>
+                        <dl>
+                            <dt>서비스영역</dt>
+                            <dd>기획, 타당성검토, 분양</dd>
+                            <dd>디자인, 설계, 엔지니어링</dd>
+                            <dd>시공, 시운전</dd>
+                            <dd>유지보수</dd>
+                            <dd>사업관리</dd>
+                        </dl>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <? include "../common/sub_foot.html" ?>
+
+    <!--푸터 공통영역-->
+
+</body></html>

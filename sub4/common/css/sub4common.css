@@ -1,0 +1,15 @@
+.visual{width:2000px; height: 400px; left: 50%; margin-left: -1000px; position: relative;}
+.subnav_box{position: relative; width: 1200px; margin: 0 auto}
+.subnav_box h3{font-size:3.571em; position: absolute; bottom: 230px; left: 50%; transform: translateX(-50%); color: #fff}
+.subnav_box p{font-size: 1.143em;font-family: 'Nanum Gothic', sans-serif;
+position: absolute; bottom: 200px; left: 50%; transform: translateX(-50%); color: #fff}
+.subnav_box .sub_nav ul{overflow: hidden; margin-bottom: 100px;}
+.subnav_box .sub_nav ul li{width:33.33%; float: left; text-align: center; font-size: 1.429em; padding-top: 25px; position: relative;font-family: 'Nanum Gothic', sans-serif;font-weight: bold;}
+.subnav_box .sub_nav ul li a{display: block; padding: 20px 0; color: #ccc; border-bottom: 5px solid rgba(255,144,0,0); transition: all .2s}
+.subnav_box .sub_nav ul li::after{content: ''; position: absolute; width: 3px; height: 15px; left: 0; top: 50px; background: #ccc; transform: skew(-20deg,0deg)}
+.subnav_box .sub_nav ul li:first-child::after{content: '';display: none;}
+.subnav_box .sub_nav ul li:hover a{border-bottom: 5px solid rgba(255,144,0,1); color: #666}
+#content_area .title_area{margin: 0 auto 150px auto; text-align: center;}
+#content_area .title_area h2{font-size: 4.286em; margin-top: 30px;font-family: 'Nanum Gothic', sans-serif;font-weight: bold;}
+.subnav_box .sub_nav ul li .current{ font-weight: bold; border-bottom: 5px solid rgba(255,144,0,1); color: #666}
+#content_area .line_map{font-size: 1.286em}

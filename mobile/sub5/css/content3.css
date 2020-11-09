@@ -1,0 +1,32 @@
+#content_area{width: 1200px; margin: 0 auto; }
+#content_area div:nth-of-type(2){margin-bottom: 150px; padding: 0 100px 0 100px;font-family: 'Nanum Gothic', sans-serif;}
+#content_area div:nth-of-type(2) h3{width: 200px;font-size: 1.429em;margin-left: 3px; color: rgb(255,0,51);font-weight: bold; }
+#content_area div:nth-of-type(2) dl{overflow: hidden;}
+#content_area div:nth-of-type(2) dl dt{float: left;width: 400px;font-size: 2.857em;margin: 0 150px 0 0;line-height: 1.5em; font-weight: bold;}
+#content_area div:nth-of-type(2) dl dd{float: left;width: 450px;font-size: 1.786em;line-height: 1.5em; text-align: justify;}
+
+
+#content_area div:nth-of-type(3){overflow: hidden;height: 700px;margin-bottom: 150px;font-family: 'Nanum Gothic', sans-serif;}
+#content_area div:nth-of-type(3) img{float: left; width: 450px; height: 700px; margin: 0 50px;}
+#content_area div:nth-of-type(3) dl{float: left; width: 600px; position: relative; top: 50%; left: 0;margin-top: -193px;}
+#content_area div:nth-of-type(3) dl dt{font-size:  2.143em;font-weight: bold; color: rgb(255,104,0)}
+#content_area div:nth-of-type(3) dl dd:nth-of-type(1){font-size:1.429em;margin: 50px 0 20px 0;line-height: 1.5em;text-align: justify}
+#content_area div:nth-of-type(3) dl dd:nth-of-type(2){font-size:1.143em;line-height: 1.5em;}
+
+#content_area div:nth-of-type(4){overflow: hidden;height: 700px; margin-bottom: 150px;font-family: 'Nanum Gothic', sans-serif;}
+#content_area div:nth-of-type(4) img{float: left; width: 450px; height: 700px; margin: 0 50px;}
+#content_area div:nth-of-type(4) dl{float: left; width: 600px; position: relative; top: 50%; left: 0;margin-top: -193px;}
+#content_area div:nth-of-type(4) dl dt{font-size:  2.143em;font-weight: bold;color: rgb(255,104,0)}
+#content_area div:nth-of-type(4) dl dd:nth-of-type(1){font-size:1.429em;margin: 50px 0 20px 0;line-height: 1.5em; text-align: justify}
+#content_area div:nth-of-type(4) dl dd:nth-of-type(2){font-size:1.143em;line-height: 1.5em;}
+
+
+#content_area div:nth-of-type(5){overflow: hidden;height: 700px;margin-bottom: 150px;font-family: 'Nanum Gothic', sans-serif;}
+#content_area div:nth-of-type(5) img{float: left; width: 450px; height: 700px; margin: 0 50px;}
+#content_area div:nth-of-type(5) dl{float: left; width: 600px; position: relative; top: 50%; left: 0;margin-top: -193px;}
+#content_area div:nth-of-type(5) dl dt{font-size:  2.143em;font-weight: bold;color: rgb(255,104,0)}
+#content_area div:nth-of-type(5) dl dd:nth-of-type(1){font-size:1.429em;margin: 50px 0 20px 0;line-height: 1.5em;text-align: justify}
+#content_area div:nth-of-type(5) dl dd:nth-of-type(2){font-size:1.143em;line-height: 1.5em;}
+
+
+

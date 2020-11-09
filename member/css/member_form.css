@@ -1,0 +1,46 @@
+#content {width: 800px; margin: 100px auto 100px auto; overflow: hidden; font-family: 'Nanum Gothic', sans-serif;}
+#content h2{font-size: 48px; margin-top: 150px;}
+
+
+#content img{display: block; margin: 20px auto}
+
+.form_title{overflow: hidden; padding: 30px 0; position: relative}
+.form_title h3{float: left; font-size: 32px; }
+.form_title p{float: right; font-size: 16px; padding-top: 15px;}
+.form_title::after{content: ''; display: block; height: 2px; width: 
+100%; top: 80px; left: 0; background: #333; position: absolute;}
+
+#content .imp{margin-bottom: 10px;}
+#content .imp2{margin-bottom: 50px;}
+
+#content ul{overflow: hidden;}
+#content ul li{float: left;}
+#content ul li:first-child{width: 200px;padding-top:20px}
+#content ul li:last-child{width: 600px;}
+#content ul li:last-child input{width: 100%; box-sizing: border-box;}
+
+
+.form_group{margin: 22px 0; height:58px;}
+#id{width:584px; padding-left:10px; height:58px; }
+#pass{width:500px; padding-left:10px; height:58px;}
+#pass_confirm{width:500px; padding-left:10px; height:58px;}
+#nick{width:584px; padding-left:10px; height:58px;}
+#name{width:500px; padding-left:10px; height:58px;}
+#hp1{height:58px; box-sizing: border-box; width: 20%}
+#content ul li:last-child #hp2{padding-left:10px; height:58px; box-sizing: border-box; width: 39% ;margin-left: 1%}
+#content ul li:last-child #hp3{padding-left:10px; height:58px; box-sizing: border-box; width: 39%;margin-left: 1%}
+#content ul li:last-child #email1{box-sizing: border-box;padding-left:10px; height:58px;width: 277px}
+#content ul li:last-child #email2{box-sizing: border-box;padding-left:10px; height:58px;width: 300px}
+#content .action_btn{position: relative; height: 100px;}
+#content .action_btn ul::after{content: ''; display: block; height: 1px; width: 
+100%; top: 0; left: 0; background: #666; position: absolute;}
+#content .action_btn ul{padding-top: 30px}
+#content .action_btn ul li:first-child{width: 41%;background-color: red; padding:0; margin-left:6%; height:50px; text-align:center;}
+#content .action_btn ul li:first-child a{display: block; font-size:20px; color:white; padding:13px 0; font-weight:bold;}
+#content .action_btn ul li:last-child{width: 41%;background-color: red; padding:0; margin-left:6%; height:50px; text-align:center; }
+#content .action_btn ul li:last-child a{display: block; font-size:20px; color:white; padding:13px 0; font-weight:bold;}
+
+label{font-weight: bold;}
+.label_p_e{font-weight: bold;}
+.astric{color: red}
+

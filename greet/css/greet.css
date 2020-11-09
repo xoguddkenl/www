@@ -1,0 +1,38 @@
+#content{width: 1200px; margin: 0 auto;font-family: 'Nanum Gothic', sans-serif;}
+#list_search{overflow: hidden}
+#list_search1{float: left; text-align: center; padding: 10px 30px;  background: rgb(255,51,0); color: white; font-weight: bold}
+#list_search3{float: left; margin-left: 450px;}
+#list_search4{float: left; }
+#list_search5 input{border: 1px solid #ccc; width: 100px; font-size: 20px; padding: 4px 0 3px 0;}
+#list_search4 input{border: 1px solid #ccc; width: 323px; font-size: 20px; padding: 5px 0 6px 0}
+.selecter{float: left; border: 1px solid #ccc; width: 100px; font-size: 20px; padding: 5px 0}
+#list_search3 select{border: 1px solid #ccc; width: 100px; font-size: 20px; padding: 5px 0}
+
+
+
+#list_top_title{overflow: hidden; margin-top: 30px; font-size: 20px; font-weight: bold; border-top: 2px solid #ccc; border-bottom: 1px solid #ccc; background: rgb(245,245,245); padding: 20px 0 }
+#list_title1{float: left;width:100px; text-align:center}
+#list_title2{float: left;width:700px; text-align:center}
+#list_title3{float: left;width:200px; text-align: center}
+#list_title4{float: left;width:100px; text-align:center}
+#list_title5{float: left;width:100px; text-align:center}
+
+
+#list_item{overflow: hidden; border-bottom: 1px solid #ccc; font-size: 16px;}
+
+
+#list_item1{float: left;width:100px; text-align:center; padding: 20px 0;}
+#list_item2{float: left;width:700px; text-align:center}
+#list_item2 a{display: block; padding: 20px 0}
+#list_item3{float: left;width:200px; text-align: center; padding: 20px 0;}
+#list_item4{float: left;width:100px; text-align:center; padding: 20px 0;}
+#list_item5{float: left;width:100px; text-align:center; padding: 20px 0;}
+
+
+
+
+#page_button{text-align: center; padding: 40px 0;}
+#button{position: absolute;right: 0;bottom: 30px; font-size: 18px; background: rgb(255,51,0); padding: 10px 0;}
+#button::after{content: ""; display: block; position: absolute; left: 123px; top: 12px; width: 2px; height: 15px; background: white; }
+#button a{color: white; padding: 10px 40px;}
+#list_content{position: relative;}

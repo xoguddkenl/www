@@ -1,0 +1,66 @@
+/* CSS Document */
+
+
+/*폰트 사용법
+font-family: 'Nanum Gothic', sans-serif;
+font-family: 'Nanum Myeongjo', serif;
+font-family: 'Roboto', sans-serif;*/
+
+
+.main{}
+.main img{width: 100%;}
+
+
+.buis{overflow: hidden;}
+.buis h3{text-align: center;margin: 100px 0 30px 0; font-family: 'Roboto', sans-serif; font-weight: bold;font-size: 5vw;}
+.buis ul{overflow: hidden;}
+.buis ul li{float: left;width: 33.33%;position: relative;}
+.buis ul li:hover{cursor: pointer;}
+.buis ul li img{width: 100%;}
+
+.pra{float: left; position: absolute; background: white; width: 100%; text-align: center; display: none; z-index: 10; left: 0; top: 0;font-family: 'Nanum Gothic', sans-serif;}
+.pra:hover{cursor: default;}
+
+.buis ul li dl{font-weight: bold}
+.buis ul li dt{font-size: 4.6vw;margin: 26% 0 20% 0; color: rgb(255,104,0)}
+.buis ul li dd{font-size: 4vw;margin-bottom: 10%;color: #666}
+.buis ul li dd:last-child{margin:20% 0 60% 0; font-weight: normal; font-size: 3vw}
+
+.buis ul li dd a{padding: 5px 15px; border: 1px solid #ccc;}
+
+.port{margin-bottom: 100px}
+.port h3{ text-align: center;margin: 100px 0 30px 0; font-family: 'Roboto', sans-serif; font-weight: bold;font-size: 5vw;}
+.port .box_wrap{position: relative; left: 0; top: 0; width: 100%;}
+.port .box_wrap .box_swiper{width: 400%; position: relative; overflow: hidden; left: 0; top: 0}
+.port .box_wrap .box_swiper ul{ float: left;overflow: hidden; width: 50%;}
+.port .box_wrap .box_swiper ul li{float: left; overflow: hidden; width: 30.33%; margin-right: 3%; background: white; border-radius: 10px 10px 0 10px; border: 1px solid #ccc; border-left: none; box-sizing: border-box; height: 100%;}
+.port .box_wrap .box_swiper ul li img{float: left; width: 62%; }
+.port .box_wrap .box_swiper ul li dl{float: left; width: 38%;}
+.port .box_wrap .box_swiper ul li dl dt{font-size: 3vw; font-family: 'Roboto', sans-serif; font-weight: bold; margin: 40% 0 20% 10%;color: rgb(255,104,0)}
+.port .box_wrap .box_swiper ul li dl dd:nth-of-type(1){font-size: 3.5vw; font-family: 'Roboto', sans-serif; font-weight: bold; margin: 0 0 10% 10%}
+.port .box_wrap .box_swiper ul li dl dd:nth-of-type(2){font-size: 3vw; font-family: 'Roboto', sans-serif; font-weight: bold; margin: 0 0 0 10%}
+
+
+
+
+.mana{overflow: hidden; background: rgba(204,204,204,.2);padding: 30px 0; }
+.mana h3{text-align: center;margin-bottom: 30px; font-family: 'Roboto', sans-serif; font-weight: bold;font-size: 5vw;}
+.mana dl{float: left; width: 33.33%; text-align: center;}
+.mana dl dt{margin-bottom: 20px;}
+.mana dl dt img{width: 30%;}
+.mana dl dd{font-size: 4.6vw; font-family: 'Nanum Gothic', sans-serif; font-weight: bold;}
+
+.recu{position: relative; font-family: 'Nanum Gothic', sans-serif; margin-bottom: 30px;}
+.recu img{width: 100%;}
+.recu div{width: 80%; margin: 0 10%; position: absolute; left: 0; top: 0; text-align: center; color: white}
+.recu div a{color: white; border: 1px solid white; padding: 10px 20px}
+.recu div p span:nth-of-type(1){color: rgb(255,0,51);}
+.recu div p span:nth-of-type(2){color: rgb(255,104,0);}
+
+.recu div p:nth-of-type(1){margin-top: 10%; font-weight: bold;}
+.recu div p:nth-of-type(2){margin-top: 10%}
+
+
+
+
+

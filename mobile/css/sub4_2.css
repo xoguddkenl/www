@@ -1,0 +1,19 @@
+.title_area{background:url(../images/sub4_visual.jpg)no-repeat ;height: 100px; background-size: cover; margin-bottom: 30px; text-align: center;overflow: hidden;}
+
+
+
+.content{margin: 0 40px;font-family: 'Nanum Gothic', sans-serif;}
+.content h2{}
+
+.content div:nth-of-type(1){margin-bottom: 50px;}
+.content div:nth-of-type(1) dl{margin-bottom: 20px;}
+.content div:nth-of-type(1) dt{text-align: center;font-size: 20px;margin-bottom: 10px;font-weight: bold}
+.content div:nth-of-type(1) dd{text-align: center;font-size: 16px;}
+.content div:nth-of-type(1) p{text-align: justify;line-height: 1.5em}
+
+.content div{margin-bottom: 50px;}
+.content div img{display: block; width: 100%}
+.content div dl{}
+.content div dt{text-align: center;font-size: 18px;margin-bottom: 20px;font-weight: bold;color: rgb(255,104,0)}
+.content div dd{text-align: justify;margin-top: 10px;line-height: 1.5em}
+.content div dd:nth-of-type(3){color: #666}

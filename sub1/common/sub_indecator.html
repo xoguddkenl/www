@@ -1,0 +1,44 @@
+<script>
+    window.onload = function() {
+
+        var num = '<?=$_GET['num']?>';
+
+        var nav1 = document.getElementById('nav1');
+        var nav2 = document.getElementById('nav2');
+        var nav3 = document.getElementById('nav3');
+        var nav4 = document.getElementById('nav4');
+
+
+
+        if (num == 1) {
+            nav1.className = 'current';
+        } else if (num == 2) {
+            nav2.className = 'current';
+        } else if (num == 3) {
+            nav3.className = 'current';
+        } else if (num == 4) {
+            nav4.className = 'current';
+        }
+
+    };
+
+</script>
+
+<!--비주얼 영역-->
+<div class="visual">
+    <img src="common/images/visual.jpg" alt="#">
+</div>
+<!--서브네비 영역-->
+<div class="subnav_box">
+    <h3>기업소개</h3>
+    <p>인류의 행복한 삶과 더 나은 세상을 만들기위해 노렵하는 기업 SK건설입니다.</p>
+    <div class="sub_nav">
+        <ul>
+            <li><a id="nav1" href="sub1_1.html">대표이사 인사말</a></li>
+            <li><a id="nav2" href="sub1_2.html">기업연혁</a></li>
+            <li><a id="nav3" href="sub1_3.html">미션과 비전</a></li>
+            <li><a id="nav4" href="sub1_4.html">오시는 길</a></li>
+
+        </ul>
+    </div>
+</div>

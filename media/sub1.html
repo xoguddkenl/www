@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Responsive WebDesign</title>
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+    <link rel="apple-touch-icon-precomposed" href="app_icon.png">
+    <link rel="apple-touch-startup-image" href="startup.png">
+
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/subcommon.css">
+    <link rel="stylesheet" href="css/sub1.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/movieClip2.css">
+    <link rel="stylesheet" href="css/magnific-popup.css">
+
+    <script defer src="https://use.fontawesome.com/releases/v5.14.0/js/all.js" integrity="sha384-3Nqiqht3ZZEO8FKj7GR1upiI385J92VwWNLj+FqHxtLYxd9l+WYpeqSOrLh0T12c" crossorigin="anonymous"></script>
+    <script src="js/prefixfree.min.js"></script>
+    <script src="js/jquery-1.12.4.min.js"></script>
+    <script src="js/jquery-migrate-1.4.1.min.js"></script>
+    <script src="js/jquery.magnific-popup.min.js"></script>
+    <script src="js/nav.js"></script>
+    <script src="js/subCommon.js"></script>
+    <script src="js/sub1.js"></script>
+
+
+</head>
+
+<? include "common/subhead.html" ?>
+
+
+<script>
+    $(document).ready(function() {
+        $('.popup-youtube').magnificPopup({
+            disableOn: 320,
+            type: 'iframe',
+            mainClass: 'mfp-fade',
+            removalDelay: 160,
+            preloader: true,
+
+            fixedContentPos: false
+        });
+    });
+
+</script>
+
+<div class="title"><p>LIFE of PI</p><p>TRAILER</p></div>
+
+<article id="content">
+    <h2 class="hidden">본문콘텐츠영역</h2>
+    <div class="clip">
+        <div class="clip_part">
+            <h3 class="subTitle">Life of Pi Official Trailer #1</h3>
+            <div class="contentArea">
+                <div class="imgPart">
+                    <a class="popup-youtube" href="https://www.youtube.com/watch?v=3mMN693-F3U"><img src="images/sub1_1.jpg" alt="Another Day Of Sun">
+                        <div class="playBnt">
+                            <img src="images/play.png" alt="">
+                        </div>
+                    </a>
+                </div>
+                <p><strong>"PI"</strong>The family of “Pai,” who ran a zoo in India, encounters a severe storm and sinks while emigrating with animals.</p>
+            </div>
+        </div>
+        <div class="clip_part">
+            <h3 class="subTitle">Life of Pi Official Trailer #2</h3>
+            <div class="contentArea">
+                <div class="imgPart">
+                    <a class="popup-youtube" href="https://www.youtube.com/watch?v=mX2HBsHbNZM"><img src="images/sub1_2.jpg" alt="Another Day Of Sun">
+                        <div class="playBnt">
+                            <img src="images/play.png" alt="">
+                        </div>
+                    </a>
+                </div>
+                 <p><strong>"White Bearded Whale"</strong> Pie, who survived alone, manages to board a lifeboat, but drifts with an injured zebra, a hungry hyena, and an orangutan. </p>
+            </div>
+        </div>
+    </div>
+    <div class="clip">
+        <div class="clip_part">
+            <h3 class="subTitle">Life of Pi CGI making of (2012) HD</h3>
+            <div class="contentArea">
+                <div class="imgPart">
+                    <a class="popup-youtube" href="https://www.youtube.com/watch?v=diiQD89-oMg"><img src="images/sub1_3.jpg" alt="Another Day Of Sun">
+                        <div class="playBnt">
+                            <img src="images/play.png" alt="">
+                        </div>
+                    </a>
+                </div>
+                <p><strong>"Cinematic shooting technique"</strong> However, the real protagonist who surprised everyone is “Richard Parker,” a Bengal tiger hiding under the boat! </p>
+            </div>
+        </div>
+        <div class="clip_part">
+            <h3 class="subTitle">Life of Pi Alternate Ending</h3>
+            <div class="contentArea">
+                <div class="imgPart">
+                    <a class="popup-youtube" href="https://www.youtube.com/watch?v=KQoJEwpsGjw"><img src="images/sub1_4.jpg" alt="Another Day Of Sun">
+                        <div class="playBnt">
+                            <img src="images/play.png" alt="">
+                        </div>
+                    </a>
+                </div>
+                 <p><strong>"Richard Parker"</strong>Animals struggling with hunger attack each other and eventually only Pie and Richard Parker remain on the ship... </p>
+            </div>
+        </div>
+    </div>
+</article>
+
+
+<? include "common/foot.html" ?>
+
+</html>

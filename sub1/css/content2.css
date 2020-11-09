@@ -1,0 +1,26 @@
+.content {position: relative; top: -100px; opacity: 0; transition: all .8s}
+
+#content_area .content{width: 1200px; margin: 0 auto; overflow: hidden;}
+#content_area .content> div{display: none}
+#content_area .content ol{float: left;font-size: 1.429em; line-height: 1.5em; font-family: 'Nanum Gothic', sans-serif;font-weight: bold;}
+#content_area .content ol li {margin-bottom: 20px;position: relative; left: 0; top: 0;}
+#content_area .content ol a{color: #ccc; transition: all .2s}
+#content_area .content ol a::before{content: ''; display: block; width:0px;height: 2px; background: rgba(255,0,51,0); position: absolute; top: 30px; left: 0; transition: all .2s}
+#content_area .content ol a:hover{color: rgba(255,0,51,1)}
+#content_area .content ol a:hover::before{content: ''; display: block; width: 120px;height: 2px; background: rgba(255,0,51,1)}
+#content_area .content dl{overflow: hidden; font-size: 1.429em; margin-left: 280px;}
+#content_area .content dl::after{content: ''; display: block; width: 800px; height: 1px; background: #ccc; position: relative; top: -50px;}
+#content_area .content dl dt{float: left; font-family: 'Nanum Gothic', sans-serif;font-weight: bold;}
+#content_area .content dl dd{margin: 0 0 10px 80px;}
+#content_area .content dl dd:last-child{margin-bottom: 100px;}
+#content_area .content img:nth-of-type(1){display: block; position: absolute;
+width: 200px; right: 130px; top: 0}
+#content_area .content img:nth-of-type(2){display: block; position: absolute;
+width: 200px; right: 130px; top: 950px}
+#content_area{animation-name: ani;
+animation-duration: 1s;
+animation-iteration-count: 1;}
+#content_area .content ol li .acurrnet{color: rgba(255,0,51,1)}
+#content_area .content ol li .acurrnet::before{content: ''; display: block; width:120px;height: 2px; background: rgba(255,0,51,1); position: absolute; top: 30px; left: 0;}
+
+.box_move{top: 0; opacity: 1;}

@@ -1,0 +1,151 @@
+.visual{width: 2000px; position: relative; left: 50%; top:0;margin-left: -1000px; overflow: hidden;position: relative;  height: 900px;}
+.visual ul:nth-of-type(1) {width: 6000px;overflow: hidden;position:relative; left: 0; top: 0;}
+
+.visual ul:nth-of-type(1) li{float: left; position: relative;}
+.visual ul:nth-of-type(1) li p:nth-of-type(1){position: absolute;  top: 380px;font-size: 5.000em; color: #fff; text-align: center; width: 2000px; font-family: 'Roboto', sans-serif;word-spacing: 2px;}
+.visual ul:nth-of-type(1) li p:nth-of-type(2){position: absolute; top: 460px;font-size: 2.143em;  color: #fff; text-align: center;width: 2000px; font-family: 'Roboto', sans-serif; font-weight: 300; word-spacing: 2px;}
+
+.visual ul:nth-of-type(2) {position: absolute; overflow: hidden; left: 50%; bottom: 50px; margin-left:-32px; }
+.visual ul:nth-of-type(2) li{width: 20px; height: 20px; background: rgba(255,255,255,.5); border-radius: 10px; float: left; margin-left: 5px; text-indent: -999%; color: #fff; overflow: hidden;}
+
+.visual ul:nth-of-type(2) li a{display: block; height: 30px;}
+.visual ul:nth-of-type(2){}
+
+.visual ul:nth-of-type(3){overflow: hidden; position: absolute; left: 52%; top: 823px;}
+.visual ul:nth-of-type(3) li{float: left; margin-left: 30px; position: relative; left: 0; top: 0;}
+.visual ul:nth-of-type(3) li a{color: #fff; font-size: 2em; transition: all .2s}
+
+.visual ul:nth-of-type(3) li span{display: block; width: 27px; height: 27px; margin-top: 3px; background: url(../images/stop.png) no-repeat;}
+.ga{width: 500px; height: 3px; position: absolute; left: 760px; top: 590px; background-color: white;}
+
+.ga_in{display: block; width: 0; height: 3px; background-color: rgb(255,0,51)}
+
+
+
+#content {}
+#content .buis { overflow: hidden; }
+#content .buis_outer{width: 1200px; margin: 0 auto}
+#content .buis h3{}
+#content .buis_con {overflow:hidden}
+#content .buis_con .con1 {float:left;  margin: 0 30px 100px 0; overflow: hidden; }
+#content .buis_con .con1 img{transform: scale(1,1);
+transition: all .5s ease-out}
+#content .buis_con .con1:hover img{transform: scale(1.2,1.2)}
+#content .buis_con .con1:hover .buis_title{
+transform: translateY(-107px)}
+#content .buis_con .con1:hover .buis_sub_title{
+transform: translateY(-107px)}
+#content .buis_con .con1:hover a{opacity: 1; transform: translateY(-107px);}
+#content .buis_con .con1 h4::before{content: '';width: 40px; height: 1px; display: block; background: #fff;margin: 0 auto 30px auto; opacity: 1; transition: all .5s ease-out}
+#content .buis_con .con1:hover h4::before{opacity: 0;}
+#content .buis_con .con1 figure {display: block; position: relative; }
+#content .buis_con .con1 figure figcaption{width:380px;left:0;top:0;
+display: block;position: absolute;text-align: center;}
+
+#content .buis_con .con2 {float:left;margin: 0 30px 100px 0; overflow: hidden}
+#content .buis_con .con2:hover .buis_title{
+transform: translateY(-107px)}
+#content .buis_con .con2:hover .buis_sub_title{
+transform: translateY(-107px)}
+#content .buis_con .con2 img{transform: scale(1,1);transition: all .5s ease-out}
+#content .buis_con .con2:hover img{transform: scale(1.2,1.2)}
+#content .buis_con .con2:hover a{opacity: 1; transform: translateY(-107px);}
+#content .buis_con .con2 h4::before{content: '';width: 40px; height: 1px; display: block; background: #fff;margin: 0 auto 30px auto;opacity: 1; transition: all .5s ease-out}
+#content .buis_con .con2:hover h4::before{opacity: 0;}
+#content .buis_con .con2 figure { width: 380px; height: 600px; display: block;position:relative;}
+#content .buis_con .con2 figure figcaption{width: 380px;left: 0;top:0;display: block;position: absolute;text-align: center;}
+#content .buis_con .con3{float:right;margin: 0 0 100px 0; overflow: hidden }
+#content .buis_con .con3 img{transform: scale(1,1);
+transition: all .5s ease-out}
+#content .buis_con .con3:hover .buis_title{
+transform: translateY(-107px)}
+#content .buis_con .con3:hover .buis_sub_title{
+transform: translateY(-107px)}
+#content .buis_con .con3:hover img{transform: scale(1.2,1.2)}
+#content .buis_con .con3:hover a{opacity: 1; transform: translateY(-107px);}
+#content .buis_con .con3 h4::before{content: '';width: 40px; height: 1px; display: block; background: #fff;margin: 0 auto 30px auto;
+opacity: 1; transition: all .5s ease-out}
+#content .buis_con .con3:hover h4::before{opacity: 0;}
+#content .buis_con .con3 figure { width: 380px; height:600px;display: block; position:relative;}
+#content .buis_con .con3 figure figcaption{width: 380px;left: 0;top: 0;display: block;position: absolute;text-align: center;}
+#content .port{height:920px;background:rgba(204,204,204,
+.3);overflow: hidden;}
+#content .port .port_inner{position:relative; left:0; top:0; width:1200px;
+         margin: 0 auto; overflow: hidden;}
+
+#content .port .port_inner .clone_div{width: 3470px; position: relative; left: -260px; top:0}
+#content .port .port_inner .clone_div ul:first-child{margin-right: 30px;}
+#content .port div ul{overflow: hidden; height: 410px; float: left;}
+#content .port div ul li{float: left; margin: 0 30px 0 0; transition: all .2s}
+#content .port .port_inner div ul li:hover{box-shadow: 0 0 10px 3px rgba(0,0,0,.1);}
+#content .port div ul .last{margin:0;}
+#content .port div ul li figcaption{ background: #fff; height: 150px; padding-bottom: 40px;position: relative;}
+
+#content .port .port_inner>ul {width: 200px; height: 100px; margin: 30px 460px 0 540px;}
+#content .port .port_inner>ul li{font-size: 2em;  width: 100px; margin: 0;
+}
+#content .port .port_inner>ul li a{color: rgba(204,204,204,1); transition: all .2s}
+#content .port .port_inner>ul li a:hover{color: rgba(255,0,51,1)}
+
+#content .mana {height: 688px; background:rgba(255,102,0,1); overflow: hidden; margin-bottom: 200px; overflow: hidden}
+#content .mana_inner{width: 1200px; margin: 0 auto}
+#content .mana h3{color: white}
+#content .mana_inner>p{color: white; margin-bottom: 108px;}
+#content .mana ul{overflow: hidden}
+#content .mana ul li{float: left; width: 400px; height: 260px;background: url(../images/mana_line.jpg) no-repeat right top }
+#content .mana ul li:last-child{background: none;}
+#content .mana ul li figcaption{height: 180px;}
+#content .news_notice {overflow:hidden}
+#content .news_notice .news_notice_inner{width: 1200px; margin: 0 auto}
+#content .news_notice .news{margin: 0 86px 200px 79px;width:485px;float:left; position: relative;}
+#content .news_notice .notice{margin-right: 65px;float: right; width: 485px;position: relative;}
+
+#content .recu {margin-bottom: 180px; overflow: hidden;}
+#content .recu img{width: 2000px; position: relative; left: 50%; margin-left: -1000px; overflow: hidden; z-index: -1}
+#content .recu .alpha{width: 2000px; height: 432px; background: rgba(0,0,0,.5); position: absolute; margin-left: -400px;}
+#content .recu .recu_inner{width: 1200px; margin: 0 auto; position: relative;}
+#content .recu dl{position: relative; z-index: 2 }
+#content .recu dl dt{font-family: 'Nanum Gothic', sans-serif; font-weight: bold; font-size: 2.143em; color: #fff; text-transform: uppercase; position: absolute;
+left: 50%; transform: translateX(-50%); top: 100px;}
+#content .recu dl dt .sk_red{color: rgba(255,0,44,1)}
+#content .recu dl dt .sk_orange{color: rgba(255,104,0,1)}
+#content .recu dl dd{ width: 720px; position: absolute; font-size: 1.143em; text-align: center; left: 50%;transform: translateX(-50%);top: 178px; color: #fff;line-height: 2em; font-family: 'Nanum Gothic', sans-serif; font-weight: bold;}
+#content .recu dl dd a{position: absolute; left: 50%; transform: translateX(-50%);top: 100px;color: #fff; padding: 5px 0; border: 1px solid #fff; display:block;width:270px; transition: all .2s;}
+#content .recu dl dd a:hover{background-color: #fff; color: rgba(255,0,51,1);}
+
+
+.buis_link{
+display: block; margin: 0 auto; border: 1px solid #fff; width: 100px; height: 60px;position: relative; top: 360px; 
+font-family: 'Roboto', sans-serif; font-weight: 300; font-size: 0.857em; color: #fff; text-transform: uppercase; opacity: 0;transition: all .5s ease-out; padding-top: 40px; overflow: hidden;}
+
+.buis_title{position: absolute;left: 50%;top:238px;text-transform: uppercase;color: #fff;font-size: 2.143em; margin-left: -45px; transform: translateY(0); transition: all .5s ease-out}
+.buis_sub_title{width:380px;position:absolute;left:50%;top:310px;text-transform:uppercase;color:#fff; margin-left: -190px; font-size:1.143em;font-family: 'Nanum Gothic', sans-serif;
+transform: translateY(0); transition: all .5s ease-out}
+
+.buis_con figure div{width: 380px; height: 600px; position: absolute; background:rgba(0,0,0,.5);top:0;left:0; outline:1px solid rgba(255,255,255,.3); outline-offset: -10px;}
+
+.buis_link span{display: block; position: absolute; left: -150px; top: -150px; width: 200px; height: 200px; background-color: rgba(255,0,51,1); transform: translate(0,0);transform: rotate(45deg); transition: all 1s ease-in-out}
+.buis_link p{position: absolute; left: 50%; top: 50%; z-index: 10; transform: translate(-50%,-50%)}
+.buis_link:hover span{ top: -30px; left: -30px;}
+
+
+
+/*포트폴리오 공통 클래스*/
+.port_sub_title{font-family: 'Roboto', sans-serif; font-size: 1.429em;text-transform: uppercase; color: #666; text-align: center; padding: 20px 0 30px 0;}
+.port_date{font-family: 'Nanum Gothic', sans-serif; font-size: 1.143em;text-align: center; color: #333; padding-bottom: 10px;}
+.port_title{font-family: 'Nanum Gothic', sans-serif; font-weight: bold; font-size: 1.714em;text-align: center; color: #333; text-transform: uppercase;}
+.more_port{display: block;width: 320px;height: 390px;text-indent: -999px;overflow: hidden;color:#fff;position: absolute;left: 0;bottom: 0;}
+/*매니지먼트 공통 클래스*/
+.mana_ima{display: block; margin: 0 auto 50px auto;}
+.mana_title{color: white;
+font-family: 'Nanum Gothic', sans-serif;font-weight: bold;font-size: 1.714em;text-align: center; margin-bottom: 20px;}
+.mana_sub_title{ font-family: 'Nanum Gothic', sans-serif;  text-align: center; color: white; line-height: 1.5em; height: 100px; padding: 0 40px 0 40px;}
+
+/*홍보센터 공통 클래스*/
+.news_notice_title{font-family: 'Roboto', sans-serif; font-size: 4.286em; letter-spacing: 11px; text-transform: uppercase; font-weight: 300;margin-bottom: 50px;}
+.news_notice_wrap{border: 1px solid rgba(255,0,44,1);margin-bottom: 30px; height: 140px; width: 485px;position: relative; background: url(../images/news_notic_line.jpg) no-repeat 30px 25px }
+.news_notice_sub_title{ width:340px;  font-family: 'Nanum Gothic', sans-serif; font-weight: bold; font-size: 1.714em; color: #666;margin: 20px 0 10px 50px; white-space: nowrap; text-overflow: ellipsis; overflow: hidden;}
+.news_notice_pra{ width: 380px; color: #333; margin: 0 0 20px 50px; overflow: hidden; line-height: 1.5em}
+.news_notice_more{position: absolute; left: 0px; top: 0; width: 485px; height: 140px; text-indent: -999px; overflow: hidden;}
+.news_notice_all_more{display: block; width:30px; height: 30px;text-indent: -999px;overflow: hidden; color: #fff;position: absolute; right: 0;top:15px;background:url(../images/news_notice_more.jpg) no-repeat; transition: all .2s}
+.news_notice_all_more:hover{background:url(../images/news_notice_more2.jpg)}

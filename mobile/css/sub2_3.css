@@ -1,0 +1,15 @@
+.content{margin: 0 40px;font-family: 'Nanum Gothic', sans-serif;}
+
+.content p {text-align: center;}
+.content div img{width: 100%; margin: 20px 0}
+
+.content div dl{text-align: center}
+.content div dt{font-weight: bold; font-size: 20px;}
+.content div dd:nth-of-type(1){margin: 20px 0 0 0;font-weight: bold; color: rgb(255,0,51)}
+.content div dd:nth-of-type(2){margin: 5px 0 20px 0}
+.content div dd:nth-of-type(3){text-align: justify;}
+.content div dd:nth-of-type(4){margin: 50px auto;width: 200px; height: 45px; text-align: center;  background: rgb(255,0,51); font-weight: bold;font-family: 'Nanum Gothic', sans-serif;}
+.content div dd:nth-of-type(4) a{display: block; color: white; height: 30px; padding-top: 15px}
+
+.title_area{background: url(../images/sub2_visual.jpg)no-repeat ;height: 100px; background-size: cover; margin-bottom: 30px; text-align: center;overflow: hidden;}
+

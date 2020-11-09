@@ -1,0 +1,17 @@
+.title_area{background:url(../images/sub3_visual.jpg)no-repeat ;height: 100px; background-size: cover; margin-bottom: 30px; text-align: center;overflow: hidden;}
+
+.content{margin: 0 40px; font-family: 'Nanum Gothic', sans-serif;}
+
+.content p {margin-bottom: 50px;line-height: 1.5em;font-weight: bold;color: #666; text-align: center}
+.content h3{text-align: center;font-size: 20px; font-weight: bold;margin-bottom: 50px;}
+.content h3 span{color:rgb(255,0,51)}
+.content ul{text-align: center}
+.content ul:first-child{margin-top: 100px;}
+.content ul:last-child{margin-bottom: 100px;}
+.content ul li{margin: 30px 0;}
+
+.content ul li dl{position: relative;}
+
+.content ul li dt{margin-bottom: 10px;font-weight: bold; color: rgb(255,0,51);}
+.content ul li dt::after{content: ''; display: block; width: 10px; height: 2px; position: absolute;left: 50%; top: -10px; background: rgb(255,0,51); margin-left: -5px;}
+.content ul li dd{text-align: center; line-height: 1.5em}

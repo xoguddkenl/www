@@ -1,0 +1,44 @@
+#content_area{width: 1200px;margin: 0 auto; }
+#content_area div:nth-of-type(2){position: relative; margin-bottom:200px; }
+#content_area div:nth-of-type(2) dl{position: absolute;left: 50px; top: 80px; background: rgb(255,0,51); width: 500px; height: 500px; text-align: center; color: #fff;font-family: 'Nanum Gothic', sans-serif;}
+#content_area div:nth-of-type(2) dl dt{font-weight: bold; font-size: 2.857em; margin:80px 0 30px 0 }
+#content_area div:nth-of-type(2) dl dd{margin: 0 50px; font-size: 1.429em; line-height: 1.5em}
+#content_area div:nth-of-type(2) img{margin-left: 270px;}
+
+#content_area div:nth-of-type(3){overflow: hidden;} 
+#content_area div:nth-of-type(3) dl{float: left; width: 50%; text-align: center; height: 400px; color: #fff; padding: 150px 0 0 0}
+#content_area div:nth-of-type(3) dl:nth-of-type(1){background: url(../images/content2/mision.jpg) no-repeat}
+#content_area div:nth-of-type(3) dl:nth-of-type(2){
+    background: url(../images/content2/vision.jpg) no-repeat}
+#content_area div:nth-of-type(3) dl dt{font-size: 2.857em; font-family: 'Roboto', sans-serif;}
+#content_area div:nth-of-type(3) dl dd{font-size:  1.429em;font-family: 'Nanum Gothic', sans-serif; margin-top: 20px;}
+
+#content_area div:nth-of-type(4){overflow: hidden; margin-bottom: 150px;}
+#content_area div:nth-of-type(4) p{text-align: center;font-size: 2.857em; font-family: 'Nanum Gothic', sans-serif; font-weight: bold}
+#content_area div:nth-of-type(4) dl{ width: 300px; text-align: center; height: 300px; border-radius: 150px; margin-right: 75px; margin-top: 80px;position: relative; color: #fff;}
+
+
+#content_area div:nth-of-type(4) dl dt{margin-top: 100px; font-size: 2.857em; margin-bottom: 20px;font-family: 'Roboto', sans-serif;}
+#content_area div:nth-of-type(4) dl dd{font-family: 'Nanum Gothic', sans-serif; font-weight: bold; font-size: 1.429em; line-height: 1.5em}
+#content_area div:nth-of-type(4) dl:nth-of-type(1){float: left; background: rgb(255,0,51); margin-left: 75px;}
+#content_area div:nth-of-type(4) dl:nth-of-type(2){float: left; background: rgb(255,104,0)}
+#content_area div:nth-of-type(4) dl:nth-of-type(3){float: left; background: #ccc}
+#content_area div:nth-of-type(5){overflow: hidden}
+#content_area div:nth-of-type(5) h3{text-align: center;margin-bottom: 80px;font-size: 2.857em;font-family: 'Nanum Gothic', sans-serif;}
+#content_area div:nth-of-type(5) img{float: left;width: 50%}
+#content_area div:nth-of-type(5) dl:nth-of-type(1){float: left; width: 440px;; text-align: center; background: rgb(255,0,51); color: #fff; height: 400px; padding:0 80px; font-family: 'Nanum Gothic', sans-serif; margin-bottom: 100px;}
+#content_area div:nth-of-type(5) dl:nth-of-type(1) dt{font-size: 2.857em;margin-top: 90px;}
+#content_area div:nth-of-type(5) dl:nth-of-type(1) dd{font-size: 1.429em; margin-top: 20px; line-height: 1.5em}
+#content_area div:nth-of-type(5) dl:nth-of-type(2){text-align: center; clear: both; height: 250px;background: rgb(255,104,0); margin-bottom: 100px; color: #fff;overflow: hidden;}
+#content_area div:nth-of-type(5) dl:nth-of-type(2) dt{font-size: 2.857em;margin-top: 50px;font-family: 'Roboto', sans-serif;}
+#content_area div:nth-of-type(5) dl:nth-of-type(2) dd{font-size: 1.429em; margin-top: 20px;width: 900px;margin: 0 auto; line-height: 1.5em;margin-top: 20px; font-family: 'Nanum Gothic', sans-serif;}
+#content_area>p {text-align: center;}
+
+#content_area>dl{background: url(../images/content2/plan.png)no-repeat center; text-indent: -999%; color: #fff; overflow: hidden; height: 1867px;}
+/*폰트 사용법
+font-family: 'Nanum Gothic', sans-serif;
+font-family: 'Nanum Myeongjo', serif;
+font-family: 'Roboto', sans-serif;*/
+#content_area{animation-name: ani;
+animation-duration: 1s;
+animation-iteration-count: 1;}

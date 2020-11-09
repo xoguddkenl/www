@@ -1,0 +1,43 @@
+<?
+     session_start();
+     @extract($_GET);
+     @extract($_POST);   
+     @extract($_SESSION);   
+?>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>뉴스</title>
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&family=Nanum+Myeongjo:wght@400;700;800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="../common/css/common.css">
+    <link rel="stylesheet" href="common/css/sub4common.css">
+    <script src="https://kit.fontawesome.com/e49f5d3028.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/content1.css">
+    <script src="../common/js/prefixfree.min.js"></script>
+    <!--[if IE9]>
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+    <? include "../common/sub_head.html" ?>
+    <? $_GET['num']=1;
+        include "common/sub_indecator.html"; ?>
+
+        <!--본문콘텐츠 영역-->
+        <div id="content_area">
+            <div class="title_area">
+                <div class="line_map"><span>home</span> &gt; <span>홍보센터</span> &gt; <strong>뉴스</strong>
+                </div>
+                <h2>뉴스</h2>
+            </div>
+            
+        </div>
+    <? include "../common/sub_foot.html" ?>
+
+        <!--푸터 공통영역-->
+        
+</body></html>

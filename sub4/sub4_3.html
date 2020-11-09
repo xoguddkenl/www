@@ -1,0 +1,102 @@
+<?
+     session_start();
+     @extract($_GET);
+     @extract($_POST);   
+     @extract($_SESSION);   
+?>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Q&amp;A</title>
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&family=Nanum+Myeongjo:wght@400;700;800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="../common/css/common.css">
+    <link rel="stylesheet" href="common/css/sub4common.css">
+    <script src="https://kit.fontawesome.com/e49f5d3028.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/content3.css">
+    <script src="../common/js/prefixfree.min.js"></script>
+    <!--[if IE9]>
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+    <? include "../common/sub_head.html" ?>
+
+    <?  $_GET['num']=3;
+       include "common/sub_indecator.html";
+    ?>
+
+
+    <!--본문콘텐츠 영역-->
+    <div id="content_area">
+        <div class="title_area">
+            <div class="line_map"><span>home</span> &gt; <span>홍보센터</span> &gt; <strong>Q&amp;A</strong>
+            </div>
+            <h2>Q&amp;A</h2>
+        </div>
+        <div class="faq">
+            <div class="hgroup">
+                <h3>SK E&amp;C 질문답변</h3><a class="all" href="javascript:void(0);">모두열기</a>
+            </div>
+            <ul>
+                <li class="article hide">
+                    <p class="q">
+                        <a class="trigger" href="javascript:void(0);">1.관리비 예치금(선수관리비)은 무엇인가요?</a>
+                        
+                    </p>
+                    <p style="padding-bottom:10px; margin-top:0px; margin-bottom:0px; height:36px; overflow:hidden; 				padding-top:10px" class="a">- 공동주택관리법 시행령 제24조에 의거, 공동주택을 관리하는데 발생되는 제비용(일반관리비, 청소비, 승강기보수유지비 등)이 관리비 부과시점보다 선 집행됨으로 이에 소요되어 예치하는 운영자금으로서 입주 시 한번만 납부하시고 추후 퇴거 시 정산 또는 반환 받는 금액을 말합니다.</p>
+                </li>
+
+                <li class="article hide">
+                    <p class="q">
+                        <a class="trigger" href="javascript:void(0);">2. 입주증 수령을 대리인이 할 수 있나요?</a>
+                   
+
+                    </p>
+                    <p style="padding-bottom:10px; margin-top:0px; margin-bottom:0px; height:36px; overflow:hidden; padding-top:10px" class="a">- 원칙적으로 계약자 본인에게만 입주증 발급이 됩니다.
+다만, 가족의 경우 계약자의 신분증, 계약자와 함께 기재되어 있는 가족관계를 증명하는
+서류(주민등록등본, 가족관계증명서, 건강보험증 등) 대리인 신분증을 지참하고 오시면 됩니다.
+가족이 아닌 경우 계약자의 신분증사본, 위임장, 인감증명서를 별도로 준비하셔야 합니다. </p>
+                </li>
+
+                <li class="article hide">
+                    <p class="q">
+                        <a class="trigger" href="javascript:void(0);">3.잔금은 언제까지 납부해야 하나요?</a>
+                     
+
+                    </p>
+                    <p style="padding-bottom:10px; margin-top:0px; margin-bottom:0px; height:36px; overflow:hidden; padding-top:10px" class="a">- 입주지정기간 내 입주증 발급 전까지만 납부하시면 되고, 입주지정기간 종료일 이후에 납부하게 될 경우에는 연체료가 발생하게 됩니다. </p>
+                </li>
+
+                <li class="article hide">
+                    <p class="q">
+                        <a class="trigger" href="javascript:void(0);">4.이사당일에 전세금을 받아서 이사 오는 경우는 어떻게 하나요?</a>
+                   
+
+                    </p>
+                    <p style="padding-bottom:10px; margin-top:0px; margin-bottom:0px; height:36px; overflow:hidden; padding-top:10px" class="a">-입주예정일 당일 반드시 은행에 입금하시고 은행에서 입금증을 받아오시면 당일 입주가 가능 합니다.평일은 물론 토요일, 일요일, 공휴일 등 은행 휴무일에 입주지</p>
+                </li>
+
+                <li class="article hide">
+                    <p class="q">
+                        <a class="trigger" href="javascript:void(0);">5.중도금 대출을 받는 사람은 잔금만 내면 입주가 되는 건가요?</a>
+                  
+
+                    </p>
+                    <p style="padding-bottom:10px; margin-top:0px; margin-bottom:0px; height:36px; overflow:hidden; padding-top:10px" class="a">-중도금대출상환 또는 전세자금대출전환 중 한가지를 결정하셔야 합니다. 상환하실 경우에는 입주증 발급전까지 상환절차를 마치셔야 하며 대출로 전환하실 경우도 입주증 발급전에 대출로 전환하는 절차를 마치고 해당대출금 잔금납부계좌로 입금되어야 입주증 발급 가능합니다.
+
+</p>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <? include "../common/sub_foot.html" ?>
+    <!--푸터 공통영역-->
+    <script src="js/sub4_3.js"></script>
+
+</body>
+
+</html>

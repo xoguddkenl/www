@@ -1,0 +1,24 @@
+#content_area {width: 1200px; margin: 0 auto; overflow: hidden;}
+#content_area #map{width: 800px; height: 800px; float: left;position: relative; top: -100px; left: 0;}
+
+#content_area .box2{float: right;background: rgb(255,104,0); width: 400px; height: 800px; position: relative; top: -100px; left: 0;}
+#content_area .box2 h3{font-size:2.875em; margin-left: 30px; margin-bottom: 50px; margin-top: 200px; font-family: 'Nanum Gothic', sans-serif; color: #fff}
+#content_area .box2 dl{margin-left: 30px; color: #fff}
+#content_area .box2 dl dt{font-size:1.875em; margin-bottom: 10px;text-transform: uppercase;font-family: 'Roboto', sans-serif;font-weight: 300}
+#content_area .box2 dl dd{font-size:1.143em; margin-bottom: 30px;font-family: 'Nanum Gothic', sans-serif;}
+#content_area .way{clear: both; overflow: hidden; position: relative; top: -100px; left: 0;}
+#content_area .way h3{font-size:2.875em; margin-bottom: 150px; margin-top: 200px; font-family: 'Nanum Gothic', sans-serif; color: #666; text-align: center;}
+#content_area .way dl{overflow: hidden; font-family: 'Nanum Gothic', sans-serif;position: relative; }
+#content_area .way dl:nth-of-type(1){float: left;}
+#content_area .way dl:nth-of-type(1) dd span{background: #fff;color: rgb(255,104,0);font-weight: bold; padding: 0; margin: 0}
+#content_area .way dl:nth-of-type(2){float: left; }
+#content_area .way dt{font-size: 1.875em; margin-bottom: 50px; text-align: center; width: 600px;}
+#content_area .way dl:nth-of-type(2) dt::after{content: ''; display: block; width: 1px; height: 220px; position: absolute; background: #ccc;left: 0; top: 0;}
+#content_area .way dt i{color: rgb(0,153,255)}
+#content_area .way dd{margin-bottom: 30px; font-size:1.143em; margin-left: 125px }
+#content_area .way dd:nth-of-type(3){margin-bottom: 150px}
+#content_area .way dd:nth-of-type(1){margin-left: 125px;}
+#content_area .way dd:nth-of-type(1) span{background:rgb(0,153,255); color: #fff; margin-right:10px; padding:5px 10px; border-radius:3px;}
+#content_area .way dd:nth-of-type(2) span{background:rgb(255,0,0); color: #fff; margin-right:10px; padding:5px 10px; border-radius:3px;}
+#content_area .way dd:nth-of-type(3) span{background:rgb(102,204,0); color: #fff; margin-right:10px; padding:5px 10px; border-radius:3px;}
+

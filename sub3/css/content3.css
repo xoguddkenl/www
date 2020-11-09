@@ -1,0 +1,62 @@
+#content_area{margin: 0 auto; }
+
+#content_area div:nth-of-type(2){height: 400px; background: url(../images/content3/leef.jpg)no-repeat center;background-attachment: fixed;overflow: hidden;position: relative; left: 50%; margin-left: -1000px}
+#content_area div:nth-of-type(2) dl{text-align: center;margin-top: 100px; color: #fff; width: 800px; margin-left: 600px;}
+#content_area div:nth-of-type(2) dl dt{margin-bottom:40px;font-size: 2.857em; font-family:'Roboto', sans-serif; font-weight: bold}
+#content_area div:nth-of-type(2) dl dd{line-height: 1.8em;font-size: 1.429em; font-family: 'Nanum Gothic', sans-serif;}
+
+
+#content_area>dl{text-align: center; margin: 200px 0 200px 0}
+#content_area>dl dt{font-size: 2.857em; font-family:'Roboto', sans-serif; font-weight: bold; margin-bottom: 20px}
+#content_area>dl dd{font-size: 1.429em; font-weight: bold;font-family: 'Nanum Gothic', sans-serif; color: #666;}
+#content_area>dl span{color:rgb(0,150,0); font-weight: bold;}
+
+.content_inner {width: 1200px; margin: 0 auto}
+
+.eco{overflow: hidden; background: rgba(0,0,0,.1); padding: 100px 0 100px 0}
+.eco div{width: 1200px; margin: 0 auto}
+.eco h3{text-align: center;font-size: 2.857em; font-weight: bold;font-family: 'Nanum Gothic', sans-serif;margin-bottom: 20px}
+.eco h3 span:nth-of-type(1){color: rgb(255,0,51)}
+.eco h3 span:nth-of-type(2){color: rgb(255,104,0)}
+
+.eco p{text-align: center;font-size: 2.857em;font-family: 'Nanum Gothic', sans-serif;margin-bottom: 50px}
+.eco p span{color: rgb(0,150,0)}
+.eco dl{float: left; width: 350px; overflow: hidden; margin-left: 50px;}
+
+
+.eco dl dt{float: left;font-size: 9.286em;font-family: 'Roboto', sans-serif; font-weight: 100; color: rgb(0,150,0)}
+.eco dl dd{font-family: 'Nanum Gothic', sans-serif; font-size: 1.429em; line-height: 1.5em;margin-left: 150px;font-weight: bold;}
+.eco dl dd:nth-of-type(1){font-family: 'Roboto', sans-serif; font-size: 2.143em; margin:15px 0 10px 150px;}
+
+.content_inner>h3:nth-of-type(1){text-align: center;font-size: 2.857em;font-family: 'Nanum Gothic', sans-serif; margin: 150px 0 30px 0;font-weight: bold}
+.content_inner>p:nth-of-type(1){ text-align: center;font-family: 'Nanum Gothic', sans-serif; line-height: 1.5em; font-size: 1.429em; margin-bottom: 150px; color: #666}
+
+.envi{background: rgba(0,150,0,.1); overflow: hidden;}
+.envi h3{text-align: center;font-size: 2.857em;font-family: 'Nanum Gothic', sans-serif; margin: 100px 0 20px 0}
+.envi p{text-align: center;font-family: 'Nanum Gothic', sans-serif; line-height: 1.5em; font-size: 1.429em; margin-bottom: 30px;font-weight: bold;color: #666 }
+
+.envi ul{font-family: 'Nanum Gothic', sans-serif; line-height: 2em; font-size: 1.429em;width: 840px; margin: 0 auto; margin-bottom: 100px}
+.envi ul li{}
+.envi ul li span{color: rgb(0,150,0); margin-right: 10px}
+
+.ios {width: 1200px; margin: 0 auto; padding: 100px 0 ; background: url(../images/content3/ios.jpg)no-repeat right}
+.ios h3{text-align: center;font-size: 2.857em;font-family: 'Nanum Gothic', sans-serif; margin: 100px 0 30px 0;font-weight: bold}
+.ios p{text-align: center;font-family: 'Nanum Gothic', sans-serif; font-size: 1.429em; margin-bottom: 30px; font-weight: bold; color: #666}
+.ios ul{font-family: 'Nanum Gothic', sans-serif; line-height: 2em; font-size: 1.429em;width: 830px; margin: 0 auto; margin-bottom: 100px;}
+.ios ul li{}
+
+#graph{width: 1000px; margin: 0 auto; overflow: hidden;}
+#graph h3{text-align: center; margin: 150px 0 30px 0;font-size: 2.857em;font-family: 'Nanum Gothic', sans-serif;}
+
+
+
+
+
+/*폰트 사용법
+font-family: 'Nanum Gothic', sans-serif;
+font-family: 'Nanum Myeongjo', serif;
+font-family: 'Roboto', sans-serif;*/
+#content_area,.content_inner{animation-name: ani;
+animation-duration: 1s;
+animation-iteration-count: 1;}
+

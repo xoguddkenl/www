@@ -1,0 +1,104 @@
+<?
+     session_start();
+     @extract($_GET);
+     @extract($_POST);   
+     @extract($_SESSION);   
+?>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>미션과 비전</title>
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&family=Nanum+Myeongjo:wght@400;700;800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="../common/css/common.css">
+    <link rel="stylesheet" href="common/css/sub1common.css">
+    <link rel="stylesheet" href="css/content3.css">
+    <script src="../common/js/prefixfree.min.js"></script>
+    <script src="https://kit.fontawesome.com/e49f5d3028.js" crossorigin="anonymous"></script>
+
+    <!--[if IE9]>
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+    <? include "../common/sub_head.html" ?>
+       <?  $_GET['num']=3;
+       include "common/sub_indecator.html";
+    ?>
+        <!--본문콘텐츠 영역-->
+        <div id="content_area">
+            <div class="title_area">
+                <div class="line_map"><span>home</span> &gt; <span>기업소개</span> &gt; <strong>미션과 비전</strong>
+                </div>
+                <h2>미션과 비전</h2>
+            </div>
+            <ul>
+                <li class="down_box">
+                    <h3>SK E&amp;C MISSON</h3>
+                    <dl>
+                        <dt>
+
+                        </dt>
+                        <dd>We Build the Great Great Life,<br> Great World</dd>
+                        <dd>우리는 인류 행복한 삶과 더 나은 세상을 만듭니다.
+                            사람과 자연이 조화를 이루는 도시공간과 삶에 행복을 주는
+                            주거공간을 창조하고, 다음 세대의 더 나은 환경을 위해
+                            청정에너지를 개발합니다.</dd>
+                    </dl>
+                    <img src="images/content3/mission.jpg" alt="#">
+                </li>
+                <li class="down_box">
+                    <img src="images/content3/vision.jpg" alt="#">
+                    <dl>
+                        <dt>
+                        </dt>
+                        <dd>Global Top Tier City Developer</dd>
+                        <dd>세계 일류 도시개발 및 인프라 구축 회사 건설의 역사를 그려온 sk e&amp;c가 대한민국 에너지의 미래를 그립니다. sk e&amp;c는 사람을 위한 에너지와 도시개발로 더 나은 내일을 열겠습니다.</dd>
+                    </dl>
+                    <h3>SK E&amp;C VISION</h3>
+                </li>
+            </ul>
+            <h3 class="down_box">추구가치</h3>
+            <ul class="down_box">
+                <li>
+                    <span><i class="far fa-handshake"></i></span>
+                    <dl>
+                        <dt>고객</dt>
+                        <dd>총체적 가치 증대와<br> 삶의 질 향상</dd>
+                    </dl>
+                </li>
+                <li>
+                    <span><i class="fas fa-user-tie"></i></span>
+                    <dl>
+                        <dt>구성원</dt>
+                        <dd>직장생활의 질과<br>역량 향상</dd>
+                    </dl>
+                </li>
+                <li>
+                    <span><i class="fas fa-chart-line"></i></span>
+                    <dl>
+                        <dt>주주</dt>
+                        <dd>기업가치의<br>지속적증대</dd>
+                    </dl>
+                </li>
+                <li>
+                    <span><i class="fas fa-globe"></i></span>
+                    <dl>
+                        <dt>사회</dt>
+                        <dd>사회의 지속가능한<br>발전에 기여</dd>
+                    </dl>
+                </li>
+            </ul>
+
+        </div>
+
+
+        <!--푸터 공통영역-->
+        <? include "../common/sub_foot.html" ?>
+        <script src="js/sub1_3.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,25 @@
+/*폰트 사용법
+font-family: 'Nanum Gothic', sans-serif;
+font-family: 'Nanum Myeongjo', serif;
+font-family: 'Roboto', sans-serif;*/
+
+
+
+#content_area .content dl{ text-align: justify; margin: 0 0 60px 0;font-family: 'Nanum Gothic', sans-serif;}
+#content_area .content dt{ text-align: center; line-height: 1.5em; font-size: 18px; margin: 0 40px;}
+#content_area .content dt span:nth-of-type(1){color: rgb(255,0,51);font-weight: bold}
+#content_area .content dt span:nth-of-type(2){color: rgb(255,104,0);font-weight: bold}
+
+
+#content_area .content dd{margin: 20px 40px; line-height: 1.5em; font-size: 14px;}
+
+#content_area div:nth-of-type(3) {position: relative; left: 0; top: 0;font-family: 'Nanum Gothic', sans-serif;}
+#content_area div:nth-of-type(3) img{position: relative; left: 50%; margin-left: -184px;}
+#content_area div:nth-of-type(3)>p{text-align: center;font-size: 18px; margin: 0 40px 30px 40px}
+#content_area div:nth-of-type(3)>p span:nth-of-type(1){color: rgb(255,0,51);font-weight: bold}
+#content_area div:nth-of-type(3)>p span:nth-of-type(2){color: rgb(255,104,0);font-weight: bold}
+
+#content_area div:nth-of-type(3)>span{position: absolute; right: 10px; bottom: 10px; color: #666; font-weight: bold;}
+
+
+.title_area{background: url(../images/sub1_visual.jpg)no-repeat ;height: 100px; background-size: cover; margin-bottom: 30px; text-align: center;overflow: hidden;}

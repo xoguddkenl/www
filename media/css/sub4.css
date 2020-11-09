@@ -1,0 +1,181 @@
+#wrap #imgBG{
+	position:absolute; /*고정=>fixed/ 스크롤처리=>absolute */
+   left:50%;
+   top:50%; /*오른쪽, 아래에 여백을 두지않고 꽉차게 표시*/
+   width:auto;
+   min-width:100%; /*동영상 너비를 꽉차게*/
+   height:auto;
+   min-height:100%; /*동영상 높이를 꽉차게*/
+  transform:translateX(-50%) translateY(-50%);
+   display:block;
+}
+
+.videoBox{top: 0;}
+
+#content{position: relative;}
+
+
+.act_name{position: absolute; left: 8%; bottom: 350px; color: white; font-weight: bold; font-size: 70px;}
+
+
+/* feature film 영역 */
+.feature .inWrap {
+	width: 100%;
+	position: absolute;
+	left: 0;
+	bottom: 0;
+}
+
+.feature .fInner {
+	margin: 0 auto;	width: 85%; overflow: hidden;
+	padding-bottom: 1%;
+}
+
+.feature li {
+	float: left; width: 33.33%; height: 200px;	margin-bottom: 4em; list-style: none; opacity: .5; transition: all .3s;
+}
+.feature li:hover{opacity: 1;}
+
+.feature li a {
+	position: relative;
+	display: block; background: #f0f0f0; height: 100%; margin: 0 3%;
+	box-shadow: 2px 2px 5px gray;
+	text-align: center;
+}
+.feature li span {
+	display: block;
+	position: absolute;
+	bottom: -3em;
+	width: 100%;
+    color:#333;
+	font-size: 1em;
+	font-weight: 400;
+}
+
+.feature li:nth-child(1) a{
+	background: url(../images/cast_mini1.jpg) center center no-repeat;
+	background-size: cover;
+}
+.feature li:nth-child(2) a{
+	background: url(../images/cast_mini2.jpg) center center no-repeat;
+	background-size: cover;
+}
+.feature li:nth-child(3) a{
+	background: url(../images/cast_mini3.jpg) center center no-repeat;
+	background-size: cover;
+}
+.feature li:nth-child(4) a{
+	background: url(../images/cast_mini4.jpg) center center no-repeat;
+	background-size: cover;
+}
+.feature li:nth-child(5) a{
+	background: url(../images/cast_mini5.jpg) center center no-repeat;
+	background-size: cover;
+}
+.feature li:nth-child(6) a{
+	background: url(../images/cast_mini6.jpg) center center no-repeat;
+	background-size: cover;
+}
+
+.feature .swiper-pagination {
+	position: relative;
+	margin-bottom: 30px;
+}
+.feature .swiper-pagination-progress .swiper-pagination-progressbar{
+	background: white;
+}
+
+.feature .button div {
+	position: absolute;
+	width: 60px;
+	height: 60px;
+	background: #336666;
+	color: #fff;
+	border-radius: 50%;
+	text-align: center;
+	top: 50%;
+	box-shadow: 2px 2px 5px gray;
+	transition: all 0.2s
+}
+.feature .button div:active {
+	transform: translate(2px,2px);
+}
+.feature .button a {
+	display: block;
+	height: 100%;
+}
+
+.feature .back a {
+	background: url(../images/back.svg) center center no-repeat;
+	background-size: 30px 30px;
+    text-indent: -999px; overflow: hidden;
+}
+
+.feature .next a {
+	background: url(../images/next.svg) center center no-repeat;
+	background-size: 30px 30px;
+    text-indent: -999px; overflow: hidden;
+}
+
+.feature .back {
+	left: 1%;
+}
+.feature .next {
+	right: 1%;
+}
+
+
+
+/* 일반 pc */
+@media screen and (max-width:1280px) {
+
+}
+
+
+/* 테블릿 */
+@media screen and (max-width:1024px) {
+
+}
+
+/* 소형 테블릿 */
+@media screen and (max-width:768px) {
+
+	.feature .button div{
+		width: 40px;
+		height: 40px;
+	}
+	.feature .button div a {
+		background-size: 20px 20px;
+	}
+}
+
+/* 모바일 */
+@media screen and (max-width:640px) {
+
+
+}
+
+/* 소형 모바일 */
+@media screen and (max-width:480px) {
+
+	.feature .fInner {
+		width: 95%;
+	}
+	.feature li {
+		width: 140px; height: 210px;
+	}
+	.feature li span {
+		font-size: 1.1667em;
+	}
+	.feature .button {
+		display: none;
+	}
+	
+}
+
+
+
+/* 최소 사이즈 처리 */
+@media screen and (max-width:480px) {
+	
+}

@@ -1,0 +1,10 @@
+#col2{ font-family: 'Nanum Gothic', sans-serif; width: 1200px; margin: 150px auto}
+#title h3{text-align: center; font-size: 40px; color: #333; font-weight: 700; padding: 100px 0 30px 0}
+#title span{display: block; text-align: center; font-size: 20px; color: #666; font-weight: 700;margin-bottom: 50px;}
+#view_content{border-top: 2px solid #666; padding: 50px; 0 margin-top: 50px; border-bottom: 1px solid #666}
+#view_content img{display: block; margin: 0 auto}
+#view_content p{margin-top: 30px; font-size: 16px; font-weight: bold; color: #666; line-height: 1.5em}
+
+#view_button{margin: 150px 0;}
+#view_button a{padding: 10px 50px; font-size: 20px; background: rgb(255,51,0); margin-left: 30px; color: white; font-weight: bold}
+#view_button a:first-child{margin-left: 650px;}

@@ -1,0 +1,20 @@
+.title_area{background:url(../images/sub3_visual.jpg)no-repeat ;height: 100px; background-size: cover; margin-bottom: 30px; text-align: center;overflow: hidden;}
+
+.content{margin: 0 40px; font-family: 'Nanum Gothic', sans-serif;}
+.content>dl:nth-of-type(1){margin-bottom: 50px;}
+.content>dl:nth-of-type(1) dt{text-align: center;margin-bottom: 10px;font-size: 20px; font-weight: bold}
+.content>dl:nth-of-type(1) dd{text-align: justify;line-height: 1.5em;}
+
+.content div:nth-of-type(1){overflow: hidden;margin-bottom: 50px;}
+.content div:nth-of-type(1) dl{float: left; width: 50%; text-align: center;background: rgba(255,0,51,1);padding: 20px 0;color: white}
+.content div:nth-of-type(1) dl:nth-of-type(2){background: rgba(255,104,0,1)}
+.content div:nth-of-type(1) dt{margin-bottom: 10px;font-weight: bold;font-size: 16px;}
+.content div:nth-of-type(1) dd{line-height: 1.5em;}
+
+.content h3{ text-align: center;margin-bottom: 30px;font-size: 20px; font-weight: bold}
+.content h3~dl{width: 100%; text-align: center;background: rgb(255,104,0); color: white;padding: 30px 0}
+.content h3~dl dt{margin-bottom: 10px;font-size: 16px; font-weight: bold}
+
+.content h3~dl dd{line-height: 1.5em}
+
+.content div:nth-of-type(2){text-indent: -1000%; color: white; overflow: hidden;background: url(../images/sub3_2_640.jpg)no-repeat center center; background-size: 320px 500px;height: 500px}
